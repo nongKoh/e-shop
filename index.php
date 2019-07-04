@@ -87,7 +87,7 @@
 										<div class="modal-body">
 											<form>
 												<div class="form-group">
-													<label for="login">Login:</label>
+													<label for="login">Loginwdawdaadw:</label>
 													<input  type="text" id="login"
 															class="form-control">
 												</div>
