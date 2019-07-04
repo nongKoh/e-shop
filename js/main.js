@@ -34,7 +34,14 @@
       }
     }
   });
-
+  //signin
+  $('#btnSignin').click(function() {
+    $('#modalSignin').modal();
+   });
+  //register
+   $('#Register').click(function() {
+       $('#modalRegister').modal();
+      });
   // HOME SLICK
   $('#home-slick').slick({
     autoplay: true,
