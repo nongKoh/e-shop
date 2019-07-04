@@ -79,7 +79,7 @@
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
-											<h5 class="modal-title">สมาชิกเข้าสู่ระบบ</h5>
+											<h5 class="modal-title">สมาชิasdsadasdsa</h5>
 											<button class="close" data-dismiss="modal">
 												<span aria-hidden="true">&times;</span>
 											</button>
