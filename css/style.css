@@ -248,8 +248,8 @@ textarea.input {
 \*----------------------------*/
 
 .section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-grey {
@@ -260,7 +260,7 @@ textarea.input {
   position: relative;
   margin-bottom: 15px;
   margin-top: 15px;
-  border-bottom: 1px solid #DADADA;
+  border-bottom: 1px solid rgb(255, 0, 0);
 }
 
 .section-title .title {

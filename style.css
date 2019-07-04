@@ -4,3 +4,53 @@
     width: 100%;
     height: 4rem;
 }
+.card{
+    width: 119px;
+    height: 149.94px;
+    text-align: center;
+    background-color: #f8694a;
+
+}
+.gogo{
+    border-radius: 50%;
+    width: 83px;
+    height: 76px;
+    text-align: center;
+}
+.line{
+    border-bottom: 1px #e6e6e6 solid;
+}
+.text-catagory{
+    bottom: -1px;
+    border-bottom: 1px #e6e6e6 solid;
+   
+
+}
+.section-catagory{
+    padding-top: 30px;
+  padding-bottom: 30px;
+ 
+}
+.flex{
+    width: 112px;
+    height: 125px;
+    text-align: center;
+    /* background-color: #461004;
+    border: 1px black solid; */
+}
+:hover.flex{
+    border: 1px orange solid;
+}
+.flex-row{
+    margin-top: 25px;
+}
+.img-catgory{
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 80px;
+    height: 80px;
+}
+.box-catagory{
+    margin-top: 25px;
+}

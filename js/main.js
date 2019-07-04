@@ -45,18 +45,18 @@
 
   // PRODUCTS SLICK
   $('#product-slick-1').slick({
-    slidesToShow: 5,
+    slidesToShow: 10 ,
     slidesToScroll: 2,
     autoplay: true,
     infinite: true,
-    speed: 300,
+    speed: false,
     dots: true,
     arrows: false,
     appendDots: '.product-slick-dots-1',
     responsive: [{
         breakpoint: 991,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         }
       },
