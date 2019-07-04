@@ -245,6 +245,29 @@
 	</div>
 	<!-- /HOME -->
 
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h2 class="title">Category</h2>
+						<div class="pull-right">
+							<div class="product-slick-dots-2 custom-dots">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- section title -->
+				
+			</div>
+				
+		</div>		
+	</div>
+
 	
 
 	<!-- section -->
@@ -256,7 +279,7 @@
 				<!-- section-title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2 class="title">Flash Sell fffff</h2>
+						<h2 class="title">Flash Sell</h2>
 						<div class="pull-right">
 							<div class="product-slick-dots-1 custom-dots"></div>
 						</div>
@@ -564,12 +587,17 @@
 				<!-- section title -->
 
 				<!-- Product Slick -->
+				<div class="pos">
 				<div class="col-md-12 col-sm-6 col-xs-6">
 					<div class="row">
 						<div id="product-slick-2" class="product-slick">
 							<!-- Product Single -->
-							<div class="product product-single">
+							<div class="product product-single hit-1">
 								<div class="product-thumb">
+									<div class="product-label">
+										<span class="rank-1" style="background-color: gold">1st</span>
+										<span class="hot" style="background-color: firebrick"><i class="fa fa-fire"></i> HOT</span>
+									</div>
 									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
 									<img src="./img/product06.jpg" alt="">
 								</div>
@@ -593,16 +621,17 @@
 							<!-- /Product Single -->
 
 							<!-- Product Single -->
-							<div class="product product-single">
+							<div class="product product-single hit-2">
 								<div class="product-thumb">
 									<div class="product-label">
-										<span class="sale">-20%</span>
+										<span class="rank-2" style="background-color: silver">2nd</span>
+										<span class="hot" style="background-color: firebrick"><i class="fa fa-fire"></i> HOT</span>
 									</div>
 									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
 									<img src="./img/product05.jpg" alt="">
 								</div>
 								<div class="product-body">
-									<h3 class="product-price">$32.50 <del class="product-old-price">$45.00</del></h3>
+									<h3 class="product-price">$32.50</h3>
 									<div class="product-rating">
 										<i class="fa fa-star"></i>
 										<i class="fa fa-star"></i>
@@ -621,8 +650,13 @@
 							<!-- /Product Single -->
 
 							<!-- Product Single -->
-							<div class="product product-single">
+							<div class="product product-single hit-3">
 								<div class="product-thumb">
+									<div class="product-label">
+										<span class="rank-3" style="background-color: #CD7F32">3rd</span>
+										<span class="hot" style="background-color: firebrick"><i class="fa fa-fire"></i> HOT</span>
+										<span class="sale">SALE</span>
+									</div>
 									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
 									<img src="./img/product04.jpg" alt="">
 								</div>
@@ -649,8 +683,36 @@
 							<div class="product product-single">
 								<div class="product-thumb">
 									<div class="product-label">
-										<span>New</span>
-										<span class="sale">-20%</span>
+										<span class="rank">4th</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="./img/product03.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">$32.50</h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span class="rank">5th</span>
+										<span class="sale">SALE</span>
 									</div>
 									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
 									<img src="./img/product03.jpg" alt="">
@@ -740,7 +802,7 @@
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2 class="title">Latest Products</h2>
+						<h2 class="title">สินค้าแนะนำประจำวัน</h2>
 					</div>
 				</div>
 				<!-- section title -->
@@ -1133,8 +1195,6 @@
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 						</ul>
 						<!-- /footer social -->
 					</div>
