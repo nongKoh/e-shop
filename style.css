@@ -5,10 +5,18 @@
     width: 100%;
     height: 4rem;
 }
+.border-edit{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: #f8694a;
+    width: 100%;
+    height: 0.3rem;
+}
 .dropbtn {
     border:none; 
     background-color: white;
     cursor: pointer;
+    
   }
 
   

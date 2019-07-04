@@ -254,7 +254,9 @@
 
 </div>
 	<!-- /HOME -->
+<div class="border-edit">
 
+</div>
 
 	<!-- FOOTER -->
 	<footer id="footer" class="section section-grey">
