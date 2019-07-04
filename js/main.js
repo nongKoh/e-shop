@@ -34,7 +34,18 @@
       }
     }
   });
-
+  //signin
+  $('#btnSignin').click(function() {
+    $('#modalSignin').modal();
+   });
+  //register
+   $('#Register').click(function() {
+       $('#modalRegister').modal();
+      });
+  //register
+  $('#Registermanager').click(function() {
+    $('#modalRegistermanager').modal();
+   });
   // HOME SLICK
   $('#home-slick').slick({
     autoplay: true,
@@ -42,7 +53,6 @@
     speed: 300,
     arrows: true,
   });
-
   // PRODUCTS SLICK
   $('#product-slick-1').slick({
     slidesToShow: 10 ,

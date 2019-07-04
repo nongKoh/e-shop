@@ -67,19 +67,20 @@
 					<ul class="header-btns">
 						<!-- Account -->
 						<li class="header-account dropdown default-dropdown">
-							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
-								<div class="header-btns-icon">
-									<i class="fa fa-user-o"></i>
+							<a id="btnSignin" class="">Login</a> / 
+							<div class="dropdown">
+								<a onclick="myFunction()" class="dropbtn">Register</a>
+								<div id="myDropdown" class="dropdown-content">
+										<a id="Register">User</a>
+										<a id="Registermanager">Manager</a>
 								</div>
-								<strong class="text-uppercase">My Account <i class="fa fa-caret-down"></i></strong>
 							</div>
-							<a id="btnSignin" class="text-uppercase">Login</a> / <a href="#" class="text-uppercase">Join</a>
 							<!-- องค์ประกอบของ Modal -->
 							<div id="modalSignin" class="modal fade">
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
-											<h5 class="modal-title">สมาชิกเข้าสู่ระบบffffff77777f</h5>
+											<h5 class="modal-title">สมาชิกเข้าสู่ระบบ</h5>
 											<button class="close" data-dismiss="modal">
 												<span aria-hidden="true">&times;</span>
 											</button>
@@ -87,7 +88,7 @@
 										<div class="modal-body">
 											<form>
 												<div class="form-group">
-													<label for="login">Loginwdawdaadw:</label>
+													<label for="login">Login:</label>
 													<input  type="text" id="login"
 															class="form-control">
 												</div>
@@ -106,16 +107,125 @@
 									</div>
 								</div>
 							</div>
-							<!-- /องค์ประกอบของ Modal -->
- 
-							<ul class="custom-menu">
-								<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
-								<li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li>
-								<li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li>
-								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
-								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
-								<li><a href="#"><i class="fa fa-user-plus"></i> Create An Account</a></li>
-							</ul>
+							<!-- /องค์ประกอบของ Signin -->
+							<!-- องค์ประกอบของ Register User-->
+							<div id="modalRegister" class="modal fade">
+								<div class="modal-dialog">
+								<div class="modal-content">
+								<div class="modal-header">
+								<h3 class="modal-title" >สมัครสมาชิก</h3>
+								<button class="close" data-dismiss="modal">
+								<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+								<form>
+								<div class="form-group">
+								<label for="user-name">Username:</label>
+								<input  type="test" id="pswd" placeholder="Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+								<label for="pswd">Password:</label>
+								<input  type="password" id="pswd" placeholder="Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="re-pswd">Confirm Password:</label> 
+									<input  type="password" id="re-pswd" placeholder="Re-Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+								<label for="login">Email:</label>
+								<input  type="text" id="login" placeholder="example@hotmail.com" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="name">Name:</label>
+									<input  type="text" id="name" placeholder="Prayut" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="lastname">Lastname:</label> 
+									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="tel">Tel:</label>
+									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
+									class="form-control">
+								</div>
+								
+								</form>
+								</div>
+								<div class="modal-footer">
+								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
+								</div>
+								</div>
+							</div>
+							</div>
+ 						<!-- /องค์ประกอบของ Register User-->
+						<!-- องค์ประกอบของ Register Manager-->
+						<div id="modalRegistermanager" class="modal fade">
+								<div class="modal-dialog">
+								<div class="modal-content">
+								<div class="modal-header">
+								<h3 class="modal-title" >สมัครสมาชิก</h3>
+								<button class="close" data-dismiss="modal">
+								<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+								<form>
+								<div class="form-group">
+								<label for="user-name">Username:</label>
+								<input  type="test" id="pswd" placeholder="Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+								<label for="pswd">Password:</label>
+								<input  type="password" id="pswd" placeholder="Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="re-pswd">Confirm Password:</label> 
+									<input  type="password" id="re-pswd" placeholder="Re-Password" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+								<label for="email-com">Email:</label>
+								<input  type="text" id="login" placeholder="example@hotmail.com" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="name">Name:</label>
+									<input  type="text" id="name" placeholder="Prayut" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="lastname">Lastname:</label> 
+									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="tel">Tel:</label>
+									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
+									class="form-control">
+								</div>
+								
+								</form>
+								</div>
+								<div class="modal-footer">
+								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
+								</div>
+								</div>
+							</div>
+							</div>
+ 						<!-- /องค์ประกอบของ Register Manager -->	
 						</li>
 						<!-- /Account -->
 
@@ -126,9 +236,6 @@
 									<i class="fa fa-shopping-cart"></i>
 									<span class="qty">3</span>
 								</div>
-								<strong class="text-uppercase">My Cart:</strong>
-								<br>
-								<span>35.20$</span>
 							</a>
 							<div class="custom-menu">
 								<div id="shopping-cart">
@@ -896,6 +1003,27 @@
 	<script src="js/jquery.zoom.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="script.js"></script>
+	<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </body>
 
 </html>
