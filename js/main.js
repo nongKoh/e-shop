@@ -45,7 +45,7 @@
 
   // PRODUCTS SLICK
   $('#product-slick-1').slick({
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 2,
     autoplay: true,
     infinite: true,

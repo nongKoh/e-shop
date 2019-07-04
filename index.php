@@ -79,7 +79,7 @@
 								<div class="modal-dialog">
 									<div class="modal-content">
 										<div class="modal-header">
-											<h5 class="modal-title">สมาชิกเข้าสู่ระบบ</h5>
+											<h5 class="modal-title">สมาชิกเข้าสู่ระบบffffff77777f</h5>
 											<button class="close" data-dismiss="modal">
 												<span aria-hidden="true">&times;</span>
 											</button>
@@ -87,7 +87,7 @@
 										<div class="modal-body">
 											<form>
 												<div class="form-group">
-													<label for="login">Login:</label>
+													<label for="login">Loginwdawdaadw:</label>
 													<input  type="text" id="login"
 															class="form-control">
 												</div>
