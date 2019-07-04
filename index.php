@@ -200,8 +200,13 @@
 									class="form-control">
 								</div>
 								<div class="form-group">
-									<label for="com-name">Company Name:</label>
+									<label for="name">Name:</label>
 									<input  type="text" id="name" placeholder="Prayut" 
+									class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="lastname">Lastname:</label> 
+									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
 									class="form-control">
 								</div>
 								<div class="form-group">
