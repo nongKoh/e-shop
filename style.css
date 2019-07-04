@@ -1,4 +1,10 @@
 
+.border-head{
+    margin-bottom: 1.5rem;
+    background-color: #f8694a;
+    width: 100%;
+    height: 4rem;
+}
 .dropbtn {
     border:none; 
     background-color: white;
