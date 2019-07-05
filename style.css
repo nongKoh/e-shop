@@ -33,11 +33,6 @@
   padding-bottom: 30px;
  
 }
-@media only screen and (max-width:991px){
-    .flex{
-    width: 130px;
-    }
-}
 .flex{
     width: 112px;
     height: 125px;
@@ -104,15 +99,27 @@
     }
   
   .show {display: block;}
-<<<<<<< HEAD
->>>>>>> 86f223e8c386df89d78949f76342d58070cda30
-=======
-
-@media only screen and (max-width: 991px) {
+  
+  @media only screen and (max-width: 991px) {
     .flex{
-        width: 130px;
+        width: 70px;
         height: 125px;
         text-align: center;
+        font-size: 10px;
+        /* background-color: #461004;
+        border: 1px black solid; */
+    }
+    :hover.flex{
+        border: 1px orange solid;
+    }
+    .flex-row{
+        margin-top: 20px;
+    }
+    .img-catgory{
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-bottom: 3px;
+        width: 100%;
+        height: auto;
     }
   }
->>>>>>> flashdeal
