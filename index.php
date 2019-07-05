@@ -362,102 +362,102 @@
 			<div class="felx-row">
 				<div class="box-catagory">
 				
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
 						<img src="category/Man-1-icon.png" alt="" class="img-catgory">
 						<p>เสื้อผ้าแฟชั่นผู้ชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
 						<img src="category/Sneakers-2-icon.png" alt="" class="img-catgory">
 						<p>รองเท้าชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
 					<img src="category/Mobile-Smartphone-icon.png" alt="" class="img-catgory">
 						<p>มือถือและอุปกรณ์เสริม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
 					<img src="category/medicine-box-2-icon.png" alt="" class="img-catgory">
 						<p>อาหารเสรืม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/clock-flat.png" alt="" class="img-catgory">
 						<p>นาฬิกา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/iMac-icon.png" alt="" class="img-catgory">
 						<p>คอมพิวเตอร์และIT</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Camera-Front-icon.png" alt="" class="img-catgory">
 						<P>กล้องถ่ายรูป</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/792742_sport_512x512.png " alt="sport" class="img-catgory">
 						<p>กีฬา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Video-Game-Controller-Icon.svg.png" alt="" class="img-catgory">
 						<p>เกมแล้วอุปกรณ์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Old-Car-2-icon.png" alt="" class="img-catgory">
 						<p>ยานยนต์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Woman-9-icon.png" alt="" class="img-catgory">
 						<p>เสื้อผ้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/images.png" alt="" class="img-catgory">
 						<p>ร้องเท้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Makeup-icon.png" alt="" class="img-catgory">
 						<p>ความงาน</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Baby-Mobile-icon.png" alt="" class="img-catgory">
 						<p>แม่และเด็ก</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/home-icon.png" alt="" class="img-catgory">
 						<P>บ้านและสวน</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Bag-Present-icon.png" alt="" class="img-catgory">
 						<P>กระเป๋า</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Engagement-Ring-icon.png" alt="" class="img-catgory">
 						<p>เครื่องประดับ</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/drink-4-icon.png" alt="" class="img-catgory">
 						<p>อาหารและเครื่องดื่ม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/img2.png" alt="" class="img-catgory">
 						<p>สัตว์เลี้ยง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Spongebob-icon.png" alt="" class="img-catgory">
 						<p>อื่นๆ</p>
 					</div></a>

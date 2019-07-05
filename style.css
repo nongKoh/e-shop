@@ -33,6 +33,11 @@
   padding-bottom: 30px;
  
 }
+@media only screen and (max-width:991px){
+    .flex{
+    width: 130px;
+    }
+}
 .flex{
     width: 112px;
     height: 125px;
