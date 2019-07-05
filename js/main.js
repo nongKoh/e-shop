@@ -38,6 +38,10 @@
   $('#btnSignin').click(function() {
     $('#modalSignin').modal();
    });
+    //signin
+  $('#btnSignin1').click(function() {
+    $('#modalSignin').modal();
+   });
   //register
    $('#Register').click(function() {
        $('#modalRegister').modal();

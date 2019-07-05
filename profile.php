@@ -181,74 +181,55 @@
 
 
 <div class="container">
-			<h1>Edit Profile</h1>
+			<h1>Profile</h1>
 			  <hr>
 			  <div class="row">
 					<!-- left column -->
 					<div class="col-md-3">
 					  <div class="text-center">
 						<img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
-						<h6>Upload a different photo...</h6>
 						
-						<input type="file" class="form-control">
 					  </div>
 					</div>
 					<div class="col-md-9 personal-info">
 						<div>
 							<label class="col-lg-2 control-label"></label>
-							<h3>Personal info</h3>
-							<label class="col-lg-2 control-label"></label>
-							<h5>Manage your personal information</h5>	
+							<h3>My profile</h3>
+							
 						</div>
 						<form class="form-horizontal" role="form">
 								<div class="form-group">
 								<label class="col-lg-3 control-label">First name:</label>
 								<div class="col-lg-8">
-									<input class="form-control" type="text" value="">
+									<p style="margin-top:7px;">ชื่อ</p>
 								</div>
 								</div>
 								<div class="form-group">
 								<label class="col-lg-3 control-label">Last name:</label>
 								<div class="col-lg-8">
-									<input class="form-control" type="text" value="">
+									<p style="margin-top:7px;">นามสกุล</p>
 								</div>
 								</div>
 								<div class="form-group">
 									<label class="col-lg-3 control-label">Address:</label>
 									<div class="col-lg-8">
-										<input class="form-control" type="text" value="">
+                                    <p style="margin-top:7px;">บ้านเลขที่ ซอย ตำบล อำเภอ จังหวัด รหัสไปรษณีย์</p>
 									</div>
 									</div>
 								<div class="form-group">
 								<label class="col-lg-3 control-label">Tel:</label>
 								<div class="col-lg-8">
-									<input class="form-control" type="text" value="">
+                                <p style="margin-top:7px;">0999999999</p>
 								</div>
 								</div>
-								<div class="form-group">
-								<label class="col-md-3 control-label">Password:</label>
-								<div class="col-md-8">
-									<input class="form-control" type="password" value="">
-								</div>
-								</div>
-								<div class="form-group">
-								<label class="col-md-3 control-label">Confirm password:</label>
-								<div class="col-md-8">
-									<input class="form-control" type="password" value="">
-								</div>
-								</div>
+								
 								<div class="form-group">
 								<label class="col-md-3 control-label"></label>
 								<div class="col-md-8">
-									<a href="profile.php"><input type="button" class="btn btn-danger" value="Save Changes"></a>
-									
-									
+                                <a href="edit-profile.php"><input type="button" class="btn btn-danger" value="Edit Profile"></a>
 								</div>
-								
 								</div>
-								
 							</form>
-						
 						</div>
 				</div>	
 	</div>
