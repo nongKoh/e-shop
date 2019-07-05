@@ -332,11 +332,43 @@
 					<div class="col-md-12">
 						<div class="product-tab">
 							<ul class="tab-nav">
-								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
-								<li><a data-toggle="tab" href="#tab1">Details</a></li>
+								<li class="active"><a data-toggle="tab" href="#tab1">ข้อมูลสินค้า</a></li>
+								<li><a data-toggle="tab" href="#tab0">ข้อมูลร้านค้า</a></li>
 								<li><a data-toggle="tab" href="#tab2">Reviews (3)</a></li>
 							</ul>
 							<div class="tab-content">
+								<div id="tab0" class="tab-pane fade in detail">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="row">
+												<div class="col-md-4">
+													<img src="category/Man-1-icon.png" alt="" class="img-shop" style="width:100%;">
+												</div>
+												<div class="col-md-8">
+													<div>SHOP NAME</div>
+													<button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
+													<button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-shopping-bag"></i> ดูร้านค้า</button>
+												</div>
+											</div>
+										</div>
+										<div Class="col-md-8">
+											<div class="row">
+												<div class="col-md-4">
+													<div style="margin:10px">คะแนน :</div>
+													<div style="margin:10px">รายการสินค้า :</div>
+												</div>
+												<div class="col-md-4">
+													<div style="margin:10px">เรทการตอบกลับ :</div>
+													<div style="margin:10px">เวลาในการตอบกลับ :</div>
+												</div>
+												<div class="col-md-4">
+													<div style="margin:10px">เข้าร่วมเมื่อ :</div>
+													<div style="margin:10px">ผู้ติดตาม :</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div id="tab1" class="tab-pane fade in active">
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
