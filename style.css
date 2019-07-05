@@ -20,7 +20,7 @@
     text-align: center;
 }
 .line{
-    border-bottom: 1px #e6e6e6 solid;
+    border-bottom: 1px #f8694a solid;
 }
 .text-catagory{
     bottom: -1px;
@@ -116,3 +116,70 @@
     }
   }
 >>>>>>> flashdeal
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:0px;
+}
+.daboo
+{
+    width: 400px;
+}
+.box-add{
+    background-color:rgba(61, 61, 61, 0.226);
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.row-add-product{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #f8694a;
+    padding-left: 20px;
+}
+.textadd{
+    color: #f8694a;
+    margin-left: 1rem;
+    font-weight: 750;
+    font-family: 'Abril Fatface', cursive;
+}
+.text-input-width{
+    width: 100%;
+}
+.btn-con{
+    font-size: 20px;
+    margin-top: 25px;
+    
+    color: #e6e6e6;
+    background-color: #f8694a;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+.btn-con:hover{
+    color: #333;
+}
+.btn-add{
+    justify-items: end;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 80%;
+}
