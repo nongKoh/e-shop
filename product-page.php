@@ -276,6 +276,14 @@
 								<img src="./img/thumb-product04.jpg" alt="">
 							</div>
 						</div>
+						<div style="margin-top:10px;">
+									<strong>favorite(89) </strong>
+									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+									<strong>แชร์ : </strong>
+									<button class="main-btn icon-btn"><i class="fa fa-facebook"></i></button>
+									<button class="main-btn icon-btn"><i class="fa fa-twitter"></i></button>
+									<button class="main-btn icon-btn"><i class="fa fa-google-plus"></i></button>
+								</div>
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
@@ -283,8 +291,8 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<h2 class="product-name">Product Name Goes Here</h2>
-							<h3 class="product-price">$32.50 <del class="product-old-price">$45.00</del></h3>
+							<h2 class="product-name">ชื่อสินค้า</h2>
+							<h3 class="product-price">฿80 <del class="product-old-price">฿100</del></h3>
 							<div>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
@@ -295,10 +303,10 @@
 								</div>
 								<a href="#">3 Review(s) / Add Review</a>
 							</div>
-							<p><strong>Availability:</strong> In Stock</p>
-							<p><strong>Brand:</strong> E-SHOP</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-								dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<p><strong>จำนวนสินค้า:</strong> 7ชิ้น</p>
+							<p><strong>ขายแล้ว:</strong> 6 ชิ้น</p>
+							<p style="color:#f8694a"><strong>การจัดส่ง: </strong><i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400</p>
+							<p style="margin-left: 85px;">ค่าจัดส่ง : ฿0-฿40</P>
 							<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Size:</span></li>
@@ -320,12 +328,8 @@
 									<span class="text-uppercase">QTY: </span>
 									<input class="input" type="number">
 								</div>
-								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
-								<div class="pull-right">
-									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
-									<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
-									<button class="main-btn icon-btn"><i class="fa fa-share-alt"></i></button>
-								</div>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> เพิ่มไปยังรถเข็น</button>
+								
 							</div>
 						</div>
 					</div>
@@ -370,8 +374,8 @@
 									</div>
 								</div>
 								<div id="tab1" class="tab-pane fade in active">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+									<h4>รายละเอียดของสินค้า</h4>
+									<p>คำอธิบาย</p>
 								</div>
 								<div id="tab2" class="tab-pane fade in">
 
@@ -380,8 +384,10 @@
 											<div class="product-reviews">
 												<div class="single-review">
 													<div class="review-heading">
-														<div><a href="#"><i class="fa fa-user-o"></i> John</a></div>
-														<div><a href="#"><i class="fa fa-clock-o"></i> 27 DEC 2017 / 8:0 PM</a></div>
+														<div><a href="#"><i class="fa fa-user-o"></i> ชื่อ user</a></div>
+														<div><a href="#"><i class="fa fa-clock-o"></i> วันเวลาที่ทำการ review</a></div>
+														<div><a href="#"><i class="fa fa-thumbs-up"></i> มีประโยชน์กับคุณ?</a></div>
+
 														<div class="review-rating pull-right">
 															<i class="fa fa-star"></i>
 															<i class="fa fa-star"></i>
@@ -391,8 +397,7 @@
 														</div>
 													</div>
 													<div class="review-body">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
-															irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+														<p>ข้อความ</p>
 													</div>
 												</div>
 
@@ -495,7 +500,8 @@
 				<!-- section title -->
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2 class="title">Picked For You</h2>
+						<h5 class="title">สินค้าอื่นภายในร้าน</h5>
+						<a href="#" style="color:#F8694A; margin-left: 955px;">ดูทั้งหมด <i class="fa fa-angle-right"></i></a>
 					</div>
 				</div>
 				<!-- section title -->
@@ -618,6 +624,55 @@
 				</div>
 				<!-- /Product Single -->
 			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h5 class="title">สินค้าที่คล้ายกัน</h5>
+						<a href="#" style="color:#F8694A; margin-left: 976px;">ดูทั้งหมด <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				<!-- section title -->
+
+				<!-- Product Single -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="product product-single">
+						<div class="product-thumb">
+							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<img src="./img/product04.jpg" alt="">
+						</div>
+						<div class="product-body">
+							<h3 class="product-price">$32.50</h3>
+							<div class="product-rating">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-o empty"></i>
+							</div>
+							<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
+							<div class="product-btns">
+								<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+								<button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+								<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /Product Single -->
+				</div>
 			<!-- /row -->
 		</div>
 		<!-- /container -->
