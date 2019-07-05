@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,210 +67,17 @@
 				</div>
 				<div class="pull-right">
 					<ul class="header-btns">
-						<!-- Account -->
-						<li class="header-account dropdown default-dropdown">
-							<a id="btnSignin" class="">Login</a> / 
-							<div class="dropdown">
-								<a onclick="myFunction()" class="dropbtn">Register</a>
-								<div id="myDropdown" class="dropdown-content">
-										<a id="Register">User</a>
-										<a id="Registermanager">Manager</a>
-								</div>
-							</div>
-							<!-- องค์ประกอบของ Modal -->
-							<div id="modalSignin" class="modal fade">
-								<div class="modal-dialog">
-									<div class="modal-content">
-										<div class="modal-header">
-											<h5 class="modal-title">สมาชิกเข้าสู่ระบบ</h5>
-											<button class="close" data-dismiss="modal">
-												<span aria-hidden="true">&times;</span>
-											</button>
-										</div>
-										<div class="modal-body">
-											<form>
-												<div class="form-group">
-													<label for="login">Login:</label>
-													<input  type="text" id="login"
-															class="form-control">
-												</div>
-												<div class="form-group">
-													<label for="pswd">Password:</label>
-													<input  type="password" id="pswd" 
-														class="form-control">
-												</div>
-											</form>
-										</div>
-										<div class="modal-footer">
-											<button class="btn btn-primary">เข้าสู่ระบบ</button>
-											<button class="btn btn-warning">ลืมรหัสผ่าน</button>
-											<button class="btn btn-info">สมัครสมาชิก</button>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /องค์ประกอบของ Signin -->
-							<!-- องค์ประกอบของ Register User-->
-							<div id="modalRegister" class="modal fade">
-								<div class="modal-dialog">
-								<div class="modal-content">
-								<div class="modal-header">
-								<h3 class="modal-title" >สมัครสมาชิก</h3>
-								<button class="close" data-dismiss="modal">
-								<span aria-hidden="true">&times;</span>
-								</button>
-								</div>
-								<div class="modal-body">
-								<form>
-								<div class="form-group">
-								<label for="user-name">Username:</label>
-								<input  type="test" id="pswd" placeholder="Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-								<label for="pswd">Password:</label>
-								<input  type="password" id="pswd" placeholder="Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="re-pswd">Confirm Password:</label> 
-									<input  type="password" id="re-pswd" placeholder="Re-Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-								<label for="login">Email:</label>
-								<input  type="text" id="login" placeholder="example@hotmail.com" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="name">Name:</label>
-									<input  type="text" id="name" placeholder="Prayut" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="lastname">Lastname:</label> 
-									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="tel">Tel:</label>
-									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
-									class="form-control">
-								</div>
-								
-								</form>
-								</div>
-								<div class="modal-footer">
-								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
-								</div>
-								</div>
-							</div>
-							</div>
- 						<!-- /องค์ประกอบของ Register User-->
-						<!-- องค์ประกอบของ Register Manager-->
-						<div id="modalRegistermanager" class="modal fade">
-								<div class="modal-dialog">
-								<div class="modal-content">
-								<div class="modal-header">
-								<h3 class="modal-title" >สมัครสมาชิก</h3>
-								<button class="close" data-dismiss="modal">
-								<span aria-hidden="true">&times;</span>
-								</button>
-								</div>
-								<div class="modal-body">
-								<form>
-								<div class="form-group">
-								<label for="user-name">Username:</label>
-								<input  type="test" id="pswd" placeholder="Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-								<label for="pswd">Password:</label>
-								<input  type="password" id="pswd" placeholder="Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="re-pswd">Confirm Password:</label> 
-									<input  type="password" id="re-pswd" placeholder="Re-Password" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-								<label for="email-com">Email:</label>
-								<input  type="text" id="login" placeholder="example@hotmail.com" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="name">Name:</label>
-									<input  type="text" id="name" placeholder="Prayut" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="lastname">Lastname:</label> 
-									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
-									class="form-control">
-								</div>
-								<div class="form-group">
-									<label for="tel">Tel:</label>
-									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
-									class="form-control">
-								</div>
-								
-								</form>
-								</div>
-								<div class="modal-footer">
-								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
-								</div>
-								</div>
-							</div>
-							</div>
- 						<!-- /องค์ประกอบของ Register Manager -->	
-						</li>
+							<!-- Account -->
+								<?php
+								    if (isset($_SESSION['mname'])=='') { 
+										include('head-befor.php');
+									  }else{
+										include('head-after.php');
+									  }
+								?>
 						<!-- /Account -->
 
-						<!-- Cart -->
-						<li class="header-cart dropdown default-dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-								<div class="header-btns-icon">
-									<i class="fa fa-shopping-cart"></i>
-									<span class="qty">3</span>
-								</div>
-							</a>
-							<div class="custom-menu">
-								<div id="shopping-cart">
-									<div class="shopping-cart-list">
-										<div class="product product-widget">
-											<div class="product-thumb">
-												<img src="./img/thumb-product01.jpg" alt="">
-											</div>
-											<div class="product-body">
-												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
-												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
-											</div>
-											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
-										</div>
-										<div class="product product-widget">
-											<div class="product-thumb">
-												<img src="./img/thumb-product01.jpg" alt="">
-											</div>
-											<div class="product-body">
-												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
-												<h2 class="product-name"><a href="#">Product Name Goes Here</a></h2>
-											</div>
-											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
-										</div>
-									</div>
-									<div class="shopping-cart-btns">
-										<button class="main-btn">View Cart</button>
-										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
-									</div>
-								</div>
-							</div>
-						</li>
-						<!-- /Cart -->
+						
 
 						
 					</ul>
@@ -364,102 +173,102 @@
 			<div class="felx-row">
 				<div class="box-catagory">
 				
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 						<img src="category/Man-1-icon.png" alt="" class="img-catgory">
 						<p>เสื้อผ้าแฟชั่นผู้ชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 						<img src="category/Sneakers-2-icon.png" alt="" class="img-catgory">
 						<p>รองเท้าชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Mobile-Smartphone-icon.png" alt="" class="img-catgory">
 						<p>มือถือและอุปกรณ์เสริม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/medicine-box-2-icon.png" alt="" class="img-catgory">
 						<p>อาหารเสรืม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/clock-flat.png" alt="" class="img-catgory">
 						<p>นาฬิกา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/iMac-icon.png" alt="" class="img-catgory">
 						<p>คอมพิวเตอร์และIT</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Camera-Front-icon.png" alt="" class="img-catgory">
 						<P>กล้องถ่ายรูป</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/792742_sport_512x512.png " alt="sport" class="img-catgory">
 						<p>กีฬา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Video-Game-Controller-Icon.svg.png" alt="" class="img-catgory">
 						<p>เกมแล้วอุปกรณ์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Old-Car-2-icon.png" alt="" class="img-catgory">
 						<p>ยานยนต์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Woman-9-icon.png" alt="" class="img-catgory">
 						<p>เสื้อผ้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/images.png" alt="" class="img-catgory">
 						<p>ร้องเท้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Makeup-icon.png" alt="" class="img-catgory">
 						<p>ความงาน</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Baby-Mobile-icon.png" alt="" class="img-catgory">
 						<p>แม่และเด็ก</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/home-icon.png" alt="" class="img-catgory">
 						<P>บ้านและสวน</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Bag-Present-icon.png" alt="" class="img-catgory">
 						<P>กระเป๋า</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Engagement-Ring-icon.png" alt="" class="img-catgory">
 						<p>เครื่องประดับ</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/drink-4-icon.png" alt="" class="img-catgory">
 						<p>อาหารและเครื่องดื่ม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/img2.png" alt="" class="img-catgory">
 						<p>สัตว์เลี้ยง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1">
+					<a href=""><div class="flex col-lg-1 col-sm-1">
 					<img src="category/Spongebob-icon.png" alt="" class="img-catgory">
 						<p>อื่นๆ</p>
 					</div></a>
@@ -475,51 +284,6 @@
 	
 
 
-	<!-- section -->
-	<div class="section section-grey">
-		<!-- container -->
-		<div class="container">
-			<!-- row -->
-			<div class="row">
-				<!-- banner -->
-				<div class="col-md-8">
-					<div class="banner banner-1">
-						<img src="./img/banner13.jpg" alt="">
-						<div class="banner-caption text-center">
-							<h1 class="primary-color">HOT DEAL<br><span class="white-color font-weak">Up to 50% OFF</span></h1>
-							<button class="primary-btn">Shop Now</button>
-						</div>
-					</div>
-				</div>
-				<!-- /banner -->
-
-				<!-- banner -->
-				<div class="col-md-4 col-sm-6">
-					<a class="banner banner-1" href="#">
-						<img src="./img/banner11.jpg" alt="">
-						<div class="banner-caption text-center">
-							<h2 class="white-color">NEW COLLECTION</h2>
-						</div>
-					</a>
-				</div>
-				<!-- /banner -->
-
-				<!-- banner -->
-				<div class="col-md-4 col-sm-6">
-					<a class="banner banner-1" href="#">
-						<img src="./img/banner12.jpg" alt="">
-						<div class="banner-caption text-center">
-							<h2 class="white-color">NEW COLLECTION</h2>
-						</div>
-					</a>
-				</div>
-				<!-- /banner -->
-			</div>
-			<!-- /row -->
-		</div>
-		<!-- /container -->
-	</div>
-	<!-- /section -->
 
 	<!-- section -->
 	<div class="section">
