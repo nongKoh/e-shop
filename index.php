@@ -173,38 +173,22 @@
 			<div class="felx-row">
 				<div class="box-catagory">
 				
-<<<<<<< HEAD
-					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
-=======
 					<a href=""><div class="flex col-lg-1 col-sm-1">
->>>>>>> f6b3525b430ab73a73aa4e5671f25c0b4e6cb353
 						<img src="category/Man-1-icon.png" alt="" class="img-catgory">
 						<p>เสื้อผ้าแฟชั่นผู้ชาย</p>
 					</div></a>
 
-<<<<<<< HEAD
-					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
-=======
 					<a href=""><div class="flex col-lg-1 col-sm-1">
->>>>>>> f6b3525b430ab73a73aa4e5671f25c0b4e6cb353
 						<img src="category/Sneakers-2-icon.png" alt="" class="img-catgory">
 						<p>รองเท้าชาย</p>
 					</div></a>
 
-<<<<<<< HEAD
-					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
-=======
 					<a href=""><div class="flex col-lg-1 col-sm-1">
->>>>>>> f6b3525b430ab73a73aa4e5671f25c0b4e6cb353
 					<img src="category/Mobile-Smartphone-icon.png" alt="" class="img-catgory">
 						<p>มือถือและอุปกรณ์เสริม</p>
 					</div></a>
 
-<<<<<<< HEAD
-					<a href=""><div class="flex col-lg-1 col-md-1 col-sm-1">
-=======
 					<a href=""><div class="flex col-lg-1 col-sm-1">
->>>>>>> f6b3525b430ab73a73aa4e5671f25c0b4e6cb353
 					<img src="category/medicine-box-2-icon.png" alt="" class="img-catgory">
 						<p>อาหารเสรืม</p>
 					</div></a>
