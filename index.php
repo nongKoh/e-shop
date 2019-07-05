@@ -358,7 +358,9 @@
 					
 					<h2 class="title">หมวดหมู่</h2>
 				</div>
-			</div><!-- Row -->
+			</div>
+			<!-- Row -->
+			<!-- Catagory -->
 			<div class="felx-row">
 				<div class="box-catagory">
 				
@@ -464,7 +466,7 @@
 				
 				</div>	
 			</div>
-
+		<!-- /Catagory -->
 		</div><!-- container -->
 	</section><!-- section -->
 
