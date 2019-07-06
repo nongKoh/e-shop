@@ -1,5 +1,5 @@
 <?php session_start();
-include_once('connect.php');
+      include_once('connect.php');
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +52,7 @@ include_once('connect.php');
 				<div class="pull-left">
 					<!-- Logo -->
 					<div class="header-logo">
-						<a class="logo" href="#">
+					<a class="logo" href="index.php">
 							<img src="./img/logo.png" alt="">
 						</a>
 					</div>
@@ -70,11 +70,12 @@ include_once('connect.php');
 				<div class="pull-right">
 					<ul class="header-btns">
 							<!-- Account -->
-								<?php
+							<?php
 								    if (isset($_SESSION['mname'])=='') { 
-										include('head-befor.php');
+										include('head-befor.php'); 
 									  }else{
 										include('head-after.php');
+										
 									  }
 								?>
 						<!-- /Account -->
@@ -552,7 +553,7 @@ include_once('connect.php');
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="product product-single">
 						<div class="product-thumb">
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product01.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -583,7 +584,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product02.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -614,7 +615,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product03.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -644,7 +645,7 @@ include_once('connect.php');
 							<div class="product-label">
 								<span>New</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product04.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -691,7 +692,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product07.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -722,7 +723,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product06.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -753,7 +754,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product05.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -792,7 +793,7 @@ include_once('connect.php');
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="product product-single">
 						<div class="product-thumb">
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product04.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -822,7 +823,7 @@ include_once('connect.php');
 							<div class="product-label">
 								<span>New</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product03.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -852,7 +853,7 @@ include_once('connect.php');
 							<div class="product-label">
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product02.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -883,7 +884,7 @@ include_once('connect.php');
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product01.jpg" alt="">
 						</div>
 						<div class="product-body">
