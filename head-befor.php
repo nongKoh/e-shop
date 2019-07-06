@@ -24,6 +24,7 @@
 													<label for="login">User:</label>
 													<input  type="text" id="login" name="username"
 															class="form-control">
+													
 												</div>
 												<div class="form-group">
 													<label for="pswd">Password:</label>

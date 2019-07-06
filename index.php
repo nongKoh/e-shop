@@ -52,7 +52,7 @@ include_once('connect.php');
 				<div class="pull-left">
 					<!-- Logo -->
 					<div class="header-logo">
-						<a class="logo" href="#">
+					<a class="logo" href="index.php">
 							<img src="./img/logo.png" alt="">
 						</a>
 					</div>
