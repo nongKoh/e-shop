@@ -199,28 +199,40 @@
 						</div>
 						<form class="form-horizontal" role="form">
 								<div class="form-group">
-								<label class="col-lg-3 control-label">First name:</label>
-								<div class="col-lg-8">
-									<p style="margin-top:7px;">ชื่อ</p>
-								</div>
-								</div>
-								<div class="form-group">
-								<label class="col-lg-3 control-label">Last name:</label>
-								<div class="col-lg-8">
-									<p style="margin-top:7px;">นามสกุล</p>
-								</div>
-								</div>
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Address:</label>
+									<label class="col-lg-3 control-label">ชื่อ-นามสกุล:</label>
 									<div class="col-lg-8">
-                                    <p style="margin-top:7px;">บ้านเลขที่ ซอย ตำบล อำเภอ จังหวัด รหัสไปรษณีย์</p>
+										<p style="margin-top:7px;">ชื่อ-นามสกุล</p>
 									</div>
-									</div>
-								<div class="form-group">
-								<label class="col-lg-3 control-label">Tel:</label>
-								<div class="col-lg-8">
-                                <p style="margin-top:7px;">0999999999</p>
 								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">Username:</label>
+									<div class="col-lg-8">
+										<p style="margin-top:7px;">username</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">E-mail:</label>
+									<div class="col-lg-8">
+										<p style="margin-top:7px;">E-mail</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">เพศ:</label>
+									<div class="col-lg-8">
+										<p style="margin-top:7px;">เพศ</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">ที่อยู่:</label>
+									<div class="col-lg-8">
+                                    	<p style="margin-top:7px;">บ้านเลขที่ ซอย ตำบล อำเภอ จังหวัด รหัสไปรษณีย์</p>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-3 control-label">เบอร์โทร:</label>
+									<div class="col-lg-8">
+										<p style="margin-top:7px;">0999999999</p>
+									</div>
 								</div>
 								
 								<div class="form-group">

@@ -303,7 +303,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="product product-single">
 						<div class="product-thumb">
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product01.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -334,7 +334,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product02.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -365,7 +365,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product03.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -395,7 +395,7 @@
 							<div class="product-label">
 								<span>New</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product04.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -442,7 +442,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product07.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -473,7 +473,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product06.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -504,7 +504,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product05.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -543,7 +543,7 @@
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="product product-single">
 						<div class="product-thumb">
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product04.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -573,7 +573,7 @@
 							<div class="product-label">
 								<span>New</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product03.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -603,7 +603,7 @@
 							<div class="product-label">
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product02.jpg" alt="">
 						</div>
 						<div class="product-body">
@@ -634,7 +634,7 @@
 								<span>New</span>
 								<span class="sale">-20%</span>
 							</div>
-							<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+							<a href="product-page.php"><button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button></a>
 							<img src="./img/product01.jpg" alt="">
 						</div>
 						<div class="product-body">

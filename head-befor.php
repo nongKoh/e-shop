@@ -53,37 +53,37 @@
 								</div>
 								<div class="modal-body">
 								<form>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 								<label for="user-name">Username:</label>
 								<input  type="test" id="pswd" placeholder="Password" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 								<label for="pswd">Password:</label>
 								<input  type="password" id="pswd" placeholder="Password" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 									<label for="re-pswd">Confirm Password:</label> 
 									<input  type="password" id="re-pswd" placeholder="Re-Password" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 								<label for="login">Email:</label>
 								<input  type="text" id="login" placeholder="example@hotmail.com" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 									<label for="name">Name:</label>
 									<input  type="text" id="name" placeholder="Prayut" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 									<label for="lastname">Lastname:</label> 
 									<input  type="text" id="lastname" placeholder="Chan-O-cha" 
 									class="form-control">
 								</div>
-								<div class="form-group">
+								<div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
 									<label for="tel">Tel:</label>
 									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
 									class="form-control">
