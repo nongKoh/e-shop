@@ -151,11 +151,13 @@ hr {
 .primary-btn {
   color: #FFF;
   background-color: #F8694A;
+  margin: 5px;
 }
 
 .primary-btn:hover, .primary-btn:focus {
   color: #FFF;
   background-color: #30323A;
+  margin: 5px;
 }
 
 /*----------------------------*\
@@ -977,6 +979,7 @@ textarea.input {
 
 .product.product-single .product-body {
   padding: 15px;
+  padding: 5px;
 }
 
 .product.product-single .product-price {
@@ -984,8 +987,9 @@ textarea.input {
 }
 
 .product.product-single .product-rating {
-  float: right;
+  float: left;
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .product.product-single .product-name {
