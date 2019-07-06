@@ -19,23 +19,23 @@
 											</button>
 										</div>
 										<div class="modal-body">
-											<form>
+										<form action="chklogin.php" method="POST" name="form1" enctype="multipart/form-data">
 												<div class="form-group">
-													<label for="login">Login:</label>
-													<input  type="text" id="login"
+													<label for="login">User:</label>
+													<input  type="text" id="login" name="username"
 															class="form-control">
 												</div>
 												<div class="form-group">
 													<label for="pswd">Password:</label>
-													<input  type="password" id="pswd" 
+													<input  type="password" id="pswd" name="password"
 														class="form-control">
 												</div>
-											</form>
-										</div>
 										<div class="modal-footer">
-											<button class="btn btn-primary">เข้าสู่ระบบ</button>
+											<button class="btn btn-primary" name="submit">เข้าสู่ระบบ</button>
 											<button class="btn btn-warning">ลืมรหัสผ่าน</button>
 											<button class="btn btn-info">สมัครสมาชิก</button>
+										</div>
+										</form>
 										</div>
 									</div>
 								</div>
