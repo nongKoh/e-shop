@@ -109,9 +109,7 @@
         /* background-color: #461004;
         border: 1px black solid; */
     }
-<<<<<<< HEAD
-  }
->>>>>>> flashdeal
+
 .image-preview-input {
     position: relative;
 	overflow: hidden;
@@ -179,7 +177,7 @@
     margin-bottom: 25px;
     margin-left: 80%;
 }
-=======
+
     :hover.flex{
         border: 1px black solid;
     }
@@ -194,7 +192,7 @@
         height: auto;
     }
   }
->>>>>>> 5526e203baee846eee738af81c27031ee806640d
+
 #flex {
     width: 100%;
     height: auto;
