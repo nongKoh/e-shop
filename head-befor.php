@@ -88,13 +88,13 @@
 									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
 									class="form-control">
 								</div>
-								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
 								</form>
 								</div>
 								<div class="modal-footer">
 								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
+								
 								</div>
 								</div>
 							</div>
@@ -147,13 +147,13 @@
 									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
 									class="form-control">
 								</div>
-								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
 								</form>
 								</div>
 								<div class="modal-footer">
 								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
+								
 								</div>
 								</div>
 							</div>
@@ -165,7 +165,7 @@
                         <!-- Cart -->
 						<li  class="header-cart dropdown default-dropdown">
 							<a id="btnSignin1" 	  aria-expanded="true">
-								<div   class="header-btns-icon">
+								<div class="header-btns-icon">
 									<i class="fa fa-shopping-cart"></i>
 								</div>
 							</a>
