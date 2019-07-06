@@ -1,4 +1,6 @@
-<?php session_start();?>
+<?php session_start();
+include_once('connect.php');
+?>
 
 <!DOCTYPE html>
 <html lang="en">

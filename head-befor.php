@@ -19,23 +19,23 @@
 											</button>
 										</div>
 										<div class="modal-body">
-											<form>
+										<form action="chklogin.php" method="POST" name="form1" enctype="multipart/form-data">
 												<div class="form-group">
-													<label for="login">Login:</label>
-													<input  type="text" id="login"
+													<label for="login">User:</label>
+													<input  type="text" id="login" name="username"
 															class="form-control">
 												</div>
 												<div class="form-group">
 													<label for="pswd">Password:</label>
-													<input  type="password" id="pswd" 
+													<input  type="password" id="pswd" name="password"
 														class="form-control">
 												</div>
-											</form>
-										</div>
 										<div class="modal-footer">
-											<button class="btn btn-primary">เข้าสู่ระบบ</button>
+											<button class="btn btn-primary" name="submit">เข้าสู่ระบบ</button>
 											<button class="btn btn-warning">ลืมรหัสผ่าน</button>
 											<button class="btn btn-info">สมัครสมาชิก</button>
+										</div>
+										</form>
 										</div>
 									</div>
 								</div>
@@ -88,13 +88,13 @@
 									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
 									class="form-control">
 								</div>
-								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
 								</form>
 								</div>
 								<div class="modal-footer">
 								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
+								
 								</div>
 								</div>
 							</div>
@@ -147,13 +147,13 @@
 									<input  type="tel" id="tel" placeholder="08x-xxx-xxxx" 
 									class="form-control">
 								</div>
-								
+								<button class="btn btn-primary">ตกลง</button>
+								<button class="btn btn-link">ยกเลิก</button>
 								</form>
 								</div>
 								<div class="modal-footer">
 								
-								<button class="btn btn-primary">ตกลง</button>
-								<button class="btn btn-link">ยกเลิก</button>
+								
 								</div>
 								</div>
 							</div>
@@ -165,7 +165,7 @@
                         <!-- Cart -->
 						<li  class="header-cart dropdown default-dropdown">
 							<a id="btnSignin1" 	  aria-expanded="true">
-								<div   class="header-btns-icon">
+								<div class="header-btns-icon">
 									<i class="fa fa-shopping-cart"></i>
 								</div>
 							</a>

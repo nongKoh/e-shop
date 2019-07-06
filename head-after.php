@@ -4,13 +4,15 @@
 								<div class="header-btns-icon">
 									<i class="fa fa-user-o"></i>
 								</div>
-								<strong class="text-uppercase">ชื่อ user <i class="fa fa-caret-down"></i></strong>
+								<strong class="text-uppercase">
+								<?php
+									echo $_SESSION['mname'];
+								?>
+								</strong><i class="fa fa-caret-down"></i></strong>
 							</div>
-							<a href="#" class="">Logout</a>
-							
-
+							<a href="logout.php" class="">Logout</a>
 							<ul class="custom-menu">
-								<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+								<li><a href="edit-profile.php"><i class="fa fa-user-o"></i> My Account</a></li>
 								<li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li>
 								<li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li>
 								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
@@ -27,9 +29,7 @@
 									<i class="fa fa-shopping-cart"></i>
 									<span class="qty">3</span>
 								</div>
-								<strong class="text-uppercase">My Cart:</strong>
-								<br>
-								<span>35.20$</span>
+							
 							</a>
 							<div class="custom-menu">
 								<div id="shopping-cart">
