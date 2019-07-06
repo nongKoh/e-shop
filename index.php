@@ -1,5 +1,5 @@
 <?php session_start();
-include_once('connect.php');
+      include_once('connect.php');
 ?>
 
 <!DOCTYPE html>
@@ -70,11 +70,12 @@ include_once('connect.php');
 				<div class="pull-right">
 					<ul class="header-btns">
 							<!-- Account -->
-								<?php
+							<?php
 								    if (isset($_SESSION['mname'])=='') { 
-										include('head-befor.php');
+										include('head-befor.php'); 
 									  }else{
 										include('head-after.php');
+										
 									  }
 								?>
 						<!-- /Account -->

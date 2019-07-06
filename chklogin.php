@@ -1,4 +1,5 @@
-<?php include 'function.inc.php'; ?>
+<?php include 'connect.php';
+    session_start();  ?>
 <meta charset="UTF-8">
 <?php
 
