@@ -292,6 +292,7 @@
 
 
 					<!-- col-md-2 card-pro-show-->
+					<a href="product-page.php">
 					<div class="col-md-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
@@ -314,6 +315,7 @@
 						</div>
 						<!-- /div -->
 					</div>
+					</a>
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
