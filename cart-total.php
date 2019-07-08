@@ -139,8 +139,7 @@
 								<img src="https://cf.shopee.co.th/file/269d28e69f832dc2edc1df706abc1148" alt="" class="cart-img">
 							</div>
 							<div class="flex-cart-name">
-								<span class="cart-name-product"	>
-									BNK48 Belt Wristband : Kimi wa Melody
+								<span class="cart-name-product "	>
 									BNK48 Belt Wristband : Kimi wa Melody
 								</span>
 							</div>
@@ -148,6 +147,22 @@
 								<span class="cart-include">
 									ตัวเลือกสินค้า
 								</span>
+							</div>
+							<div class="price">
+								<span class="cart-price">
+									฿180
+								</span>
+							</div>
+							<div class="count-cart">
+								<span class=cart-count>- 1000 +</span>
+							</div>
+							<div class="total-price">
+								<div class="price-total">
+									฿180
+								</div>
+							</div>
+							<div class="action-cart">
+								ลบ
 							</div>
 						</div>
 			
