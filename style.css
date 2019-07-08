@@ -341,3 +341,24 @@
      padding-top: 3px;
      color: #e6e6e6;
   }
+
+  .box-flex{
+    padding: 0px;
+    margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .card-flex{
+    width: 15%;
+    list-style: none;
+    border: #000000;
+    margin: 5px;
+  }
+  .img-flex{
+      width: 100%;
+  }
+  .item-detail{
+    word-wrap: break-word;
+    padding-top: 10px;
+  }

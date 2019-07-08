@@ -346,7 +346,7 @@
 									<div class="row">
 										<div class="col-md-4 col-sm-4">
 											<div class="row">
-												<div class="col-md-4">
+												<div class="col-md-4 ">
 													<img src="category/Man-1-icon.png" alt="" class="img-shop" style="width:100%;">
 												</div>
 												<div class="col-md-8">
@@ -498,167 +498,179 @@
 			<!-- container -->
 			<div class="container"> 
 				<div class="row box-pro-text-heard">
-					<h4 style="padding-left:15px;">สินค้าอื่นจากร้านเดียวกัน</h4>
+					<h4 style="padding-left:15px;">สินค้าขายดีประจำร้าน</h4>
 				</div>				
 				<!-- ROW -->
-				<div class="row  " style=" margin-bottom: 30px;" >
-
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+				<div class="box-flex">
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
 						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
 						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
 					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 col-sm-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
 					
-					
-					
-				</div>	
-				<!-- ROW -->
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card-flex">
+						<div class="img-flex">
+							<img class="img-flex" src="img/download.jpg" alt="">
+						</div>
+						<div class="item-detail">
+							<div class="item-title">
+								<h6>ชื่อผลิตภัณฑ์</h6>
+							</div>
+							<div class="item-price">
+								<strong>ราคา :</strong><p>฿ 200</p>
+							</div>
+						</div>
+					</div>
+
 				<!-- <div id="flex-container">
 					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
 					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
