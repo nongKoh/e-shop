@@ -27,10 +27,8 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
-
 	<!--Css-->
 	<link type="text/css" rel="stylesheet" href="style.css" />
-
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -292,7 +290,7 @@
 						<div class="product-body">
 							<div class="product-label">
 								<span>New</span>
-								<span class="discount">-20%</span>
+								<span class="sale">-20%</span>
 							</div>
 							<h2 class="product-name">ชื่อสินค้า</h2>
 							<h3 class="product-price">฿80 <del class="product-old-price">฿100</del></h3>
@@ -500,7 +498,7 @@
 			<!-- container -->
 			<div class="container"> 
 				<div class="row box-pro-text-heard">
-					<h4 style="padding-left:15px;">สินค้าจากร้านเดียวกัน</h4>
+					<h4 style="padding-left:15px;">สินค้าอื่นจากร้านเดียวกัน</h4>
 				</div>				
 				<!-- ROW -->
 				<div class="row  " style=" margin-bottom: 30px;" >
