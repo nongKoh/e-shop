@@ -312,3 +312,32 @@
     font-family: 'Pridi', serif;
     margin-left: 5%;
   }
+  .discount{
+    position: absolute;
+    background: #f8694a;
+    color: #f1f1f1;
+    margin-left: 80%;
+    margin-top: 1%;
+    font-family: 'Pridi', serif;
+    
+  }
+  .text-dis-white{
+      color: #ffffff;
+      background-color: #333;
+      font-family: 'Pridi', serif;
+      
+  }
+  .first{
+      border-radius: 50%;
+      background-color: rgb(255, 136, 0);
+      position: absolute;
+      width: 35px;
+      height: 35px;
+      font-size: 17px;
+      text-align: center;
+      margin-top: 5px;
+     margin-left: 79%;
+     font-family: 'Roboto Mono', monospace;
+     padding-top: 3px;
+     color: #e6e6e6;
+  }
