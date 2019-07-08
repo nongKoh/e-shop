@@ -344,7 +344,7 @@
 							<div class="tab-content">
 								<div id="tab0" class="tab-pane fade in detail">
 									<div class="row">
-										<div class="col-md-4">
+										<div class="col-md-4 col-sm-4">
 											<div class="row">
 												<div class="col-md-4">
 													<img src="category/Man-1-icon.png" alt="" class="img-shop" style="width:100%;">
@@ -505,7 +505,7 @@
 
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
@@ -530,7 +530,7 @@
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
@@ -555,7 +555,7 @@
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
@@ -580,7 +580,7 @@
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
@@ -605,7 +605,7 @@
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
@@ -630,7 +630,7 @@
 					<!-- col-md-2 card-pro-show-->
 
 					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
+					<div class="col-md-2 col-sm-2 card-pro-show">						
 						<img class="img-size " src="img/banner13.jpg" alt="">
 						<!-- f-->
 						<div class="f">
