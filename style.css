@@ -721,3 +721,43 @@
 
         width: 296px;
     }
+    .cart-count{
+        display: inline-flex;
+        width: 70%;
+        background-color: red;
+    }
+    .textcart{
+        max-width: 40%;
+        max-height:2.4rem;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        color: rgba(0, 0, 0, 0.486);
+        border:1px rgba(0, 0, 0, 0.164) solid;
+    }
+    .btn-cart{
+        display: flex;
+        margin-top: 0;
+        width: 30%;
+        height: 2.4rem;
+        background-color: #ffffff;
+        border: none;
+        border:1px rgba(0, 0, 0, 0.164) solid;
+    }
+    .subcart{
+        width: 1rem;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 2px;
+    }
+    .add1{
+        margin-top: 4px;
+        width: 1rem;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 2px;
+    }
+    .add2{
+        margin-left: -6px;
+        width: 2px;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 1rem;
+    }
