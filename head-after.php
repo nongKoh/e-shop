@@ -56,7 +56,7 @@
 										</div>
 									</div>
 									<div class="shopping-cart-btns">
-										<button class="main-btn">View Cart</button>
+										<a href="cart-total.php" class="main-btn">View Cart</a>
 										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
 									</div>
 								</div>

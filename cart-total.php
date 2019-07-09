@@ -144,9 +144,14 @@
 								</span>
 							</div>
 							<div class="include">
-								<span class="cart-include">
-									ตัวเลือกสินค้า
-								</span>
+								<div class="btn-group">
+									<button class="btn btn-default btn-sm dropdown-toggle btn-type" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">								
+										ตัวเลือกสินค้า 
+									</button>
+									<ul class="dropdown-menu">
+										s
+									</ul>
+								</div>
 							</div>
 							<div class="price">
 								<span class="cart-price">
@@ -154,7 +159,16 @@
 								</span>
 							</div>
 							<div class="count-cart">
-								<span class=cart-count>- 1000 +</span>
+								<div class=cart-count>
+									<button id="subcart" class="btn-cart">
+										<span class="subcart"></span>
+									</button> 
+									<input type="text" class="textcart" value="1"> 
+									<button id="subcart" class="btn-cart">
+										<span class="add1"></span>
+										<span class="add2"></span>
+									</button> 
+								</div>
 							</div>
 							<div class="total-price">
 								<div class="price-total">
@@ -162,7 +176,9 @@
 								</div>
 							</div>
 							<div class="action-cart">
-								ลบ
+								<a href="#" class="delete-cart">
+									ลบ
+								</a>
 							</div>
 						</div>
 			
