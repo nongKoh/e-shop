@@ -278,6 +278,7 @@
 			</div>
 		<!-- /Catagory -->
 		</div><!-- container -->
+		
 	</section><!-- section -->
 
 	<!-- section สินค้าแนะนำ-->
