@@ -289,8 +289,8 @@
     font-family: 'Pridi', serif;
 }
 .include{
-    margin-left: 1%;
-    width:20%;
+    
+    width:18%;
 }
 .price{
     width: 15%;
@@ -304,12 +304,16 @@
     width:20%;
 }
 .count-cart{
-    width: 10%;
-    text-align: center
+    width:10%;
+    
 }
 .total-price{
     width: 10%;
-    
+    text-align: center
+}
+.action-cart{
+    width: 10%;
+    text-align: center
 }
 .flex-cart-content{
     padding: 0;
@@ -760,4 +764,8 @@
         width: 2px;
         background-color: rgba(0, 0, 0, 0.486);
         height: 1rem;
+    }
+
+    .price-total{
+        color: #ee4d2d;
     }
