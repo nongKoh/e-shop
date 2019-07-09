@@ -249,7 +249,6 @@
 }
 .name-shop{
     width: 1px;
-<<<<<<< HEAD
 
     overflow: hidden;
 }
@@ -320,7 +319,6 @@
     flex-wrap: nowrap;
 }
 
-=======
 
     overflow: hidden;
 }
@@ -391,7 +389,6 @@
     flex-wrap: nowrap;
 }
 
->>>>>>> master
 @media only screen and (max-width:800px)
 {
     .flex-cart-item{
@@ -729,13 +726,44 @@
     }
 }
 
-<<<<<<< HEAD
+.img-shop{
+    width: 100%;
+}
+
+@media only screen and (max-width:991.5px) {
+    .img-shop{
+        width: 50%;
+        margin-left: 57px;
+    }
+    .shp-dt{
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:767.5px) {
+    .img-shop{
+        width: 15%;
+        margin-left: 42.5%;
+    }
+}
+
+@media only screen and (max-width:500.5px) {
+    .img-shop{
+        width: 20%;
+        margin-left: 40%;
+    }
+}
+
 @media only screen and (max-width:325.5px) {
     .tab-nav{
         width: 296px;
     }
 }
+<<<<<<< HEAD
+
 =======
     
 
 >>>>>>> master
+
