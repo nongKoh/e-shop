@@ -289,8 +289,8 @@
     font-family: 'Pridi', serif;
 }
 .include{
-    margin-left: 1%;
-    width:20%;
+    
+    width:18%;
 }
 .price{
     width: 15%;
@@ -304,12 +304,16 @@
     width:20%;
 }
 .count-cart{
-    width: 10%;
-    text-align: center
+    width:10%;
+    
 }
 .total-price{
     width: 10%;
-    
+    text-align: center
+}
+.action-cart{
+    width: 10%;
+    text-align: center
 }
 .flex-cart-content{
     padding: 0;
@@ -535,6 +539,233 @@
     }
 }
 
+@media only screen and (max-width:325.5px) {
+    .tab-nav{
+        width: 296px;
+    }
+}
+.font-1-2-1{
+    font-size: 11px;
+    padding-top: 24px; 
+    color: #cc2424;
+  }
+/* flex */
+  .flex-into{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .box-flex{
+    background-color: #ffffff;
+    margin: 4px;
+    width: 187px;
+    height: 300px;
+    padding: 0px;
+  }
+  /* media */
+@media only screen and (max-width:1200px) {
+    .box-flex{
+        background-color: #ffffff;
+        margin: 4px;
+        width: 186px;
+        height: 300px;
+        padding: 0px;
+      }
+}
+@media only screen and (max-width:445px) {
+    .box-flex{
+        background-color: #ffffff;
+        margin: 2px;
+        width: 133px;
+        height: 220px;
+        padding: 0px;
 
-    
+      }
+      .discount {
+        position: absolute;
+        background: #f8694a;
+        color: #f1f1f1;
+        margin-left: 96px;
+        margin-top: 2px;
+        font-family: 'Pridi', serif;
+        border-bottom-left-radius: 5px;
+    }
+      .f{
+        display: -webkit-box;
+    max-width: 100%;
+    height: 29px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+    font-family: 'Pridi', serif;
 
+    }  
+    .tex-p{
+        font-size: 18px;
+        color: #000000;
+        font-family: 'Pridi', serif;
+        margin-left: 5px;
+    }
+    .font-1-2-1{
+        font-size: 9px;
+        padding-top: 20px;
+        color: #cc2424;
+
+    }
+    .tex-pr {
+        font-size: 13px;
+        color: #f8694a;
+        font-family: 'Pridi', serif;
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width:376px) {
+    .box-flex{
+        background-color: #ffffff;
+        margin: 4px;
+        width: 179px;
+        height: 232px;
+        padding: 0px;
+
+      }
+      .f{
+        display: -webkit-box;
+    max-width: 100%;
+    height: 36px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+    font-family: 'Pridi', serif;
+
+    }  
+    .discount {
+        position: absolute;
+        background: #f8694a;
+        color: #f1f1f1;
+        margin-left: 142px;
+        margin-top: 2px;
+        font-family: 'Pridi', serif;
+        border-bottom-left-radius: 5px;
+    }
+    .tex-p{
+        font-size: 15px;
+        color: #000000;
+        font-family: 'Pridi', serif;
+        margin-left: 5px;
+    }
+    .font-1-2-1{
+        font-size: 9px;
+        padding-top: 20px;
+        color: #cc2424;
+
+    }
+    .tex-pr {
+        font-size: 13px;
+        color: #f8694a;
+        font-family: 'Pridi', serif;
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width:361px) {
+    .box-flex{
+        background-color: #ffffff;
+        margin: 2px;
+        width: 175px;
+        height: 235px;
+        padding: 0px;
+    }
+    .discount {
+        position: absolute;
+        background: #f8694a;
+        color: #f1f1f1;
+        margin-left: 137px;
+        margin-top: 2px;
+        font-family: 'Pridi', serif;
+        border-bottom-left-radius: 5px;
+    }
+
+}
+@media only screen and (max-width:320px) {
+    .box-flex{
+        background-color: #ffffff;
+        margin: 2px;
+        width: 156px;
+        height: 232px;
+        padding: 0px;
+    }
+    .discount {
+        position: absolute;
+        background: #f8694a;
+        color: #f1f1f1;
+        margin-left: 118px;
+        margin-top: 2px;
+        font-family: 'Pridi', serif;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+
+
+=======
+
+  .box-flex{
+    padding: 0px;
+
+        width: 296px;
+    }
+    .cart-count{
+        display: inline-flex;
+        width: 70%;
+        background-color: red;
+    }
+    .textcart{
+        max-width: 40%;
+        max-height:2.4rem;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        color: rgba(0, 0, 0, 0.486);
+        border:1px rgba(0, 0, 0, 0.164) solid;
+    }
+    .btn-cart{
+        display: flex;
+        margin-top: 0;
+        width: 30%;
+        height: 2.4rem;
+        background-color: #ffffff;
+        border: none;
+        border:1px rgba(0, 0, 0, 0.164) solid;
+    }
+    .subcart{
+        width: 1rem;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 2px;
+    }
+    .add1{
+        margin-top: 4px;
+        width: 1rem;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 2px;
+    }
+    .add2{
+        margin-left: -6px;
+        width: 2px;
+        background-color: rgba(0, 0, 0, 0.486);
+        height: 1rem;
+    }
+
+    .price-total{
+        color: #ee4d2d;
+    }
