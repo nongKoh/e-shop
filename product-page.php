@@ -384,7 +384,6 @@
 
 						
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
@@ -408,7 +407,6 @@
 						</div>
 
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
@@ -432,7 +430,6 @@
 						</div>
 
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
@@ -456,7 +453,6 @@
 						</div>
 
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
@@ -480,7 +476,6 @@
 						</div>
 
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
@@ -504,7 +499,6 @@
 						</div>
 
 						<div class="box-flex">
-								<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>
 								<img class="img-size " src="img/banner13.jpg" alt="">
 								<!-- f-->
 								<div class="f">
