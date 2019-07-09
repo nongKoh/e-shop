@@ -347,12 +347,16 @@
 										<div class="col-md-4 col-sm-4">
 											<div class="row">
 												<div class="col-md-4 ">
-													<img src="category/Man-1-icon.png" alt="" class="img-shop" style="width:100%;">
+													<img src="category/Man-1-icon.png" alt="" class="img-shop">
 												</div>
 												<div class="col-md-8">
-													<div>SHOP NAME</div>
-													<button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
-													<button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-shopping-bag"></i> ดูร้านค้า</button>
+													<div class="shp-dt">
+														<div class="shop-name">SHOP NAME</div>
+														<div class="btn-shop">
+															<button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
+															<button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-shopping-bag"></i> ดูร้านค้า</button>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
