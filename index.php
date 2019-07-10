@@ -297,54 +297,58 @@
 					<div class="flex-into">
 
 						
+						<a href="">		  	
+							<div class="box-flex">
+								<span class="first">1st</span>			  	
+								<img class="img-size " src="img/banner13.jpg" alt="">
+								<!-- f-->
+								<div class="f">
+									Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+								</div>
+								<!-- /f-->
+								<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+								<div style="   margin-top: 8px;  margin-left: 3px;">
+									<!-- จัดส่งฟรี -->
+									<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+										<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+									</span>
+									<!-- /จัดส่งฟรี -->
+								</div>
+								<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+								<!-- div -->
+								<div >
+									<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+								</div>
+							
+							</div>
+						</a>
 
-						<div class="box-flex">
-							<span class="first">1st</span>			  	
-							<img class="img-size " src="img/banner13.jpg" alt="">
-							<!-- f-->
-							<div class="f">
-								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+						<a href="">
+							<div class="box-flex">
+								<span class="first">2nd</span>			  	
+								<img class="img-size " src="img/banner13.jpg" alt="">
+								<!-- f-->
+								<div class="f">
+									Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+								</div>
+								<!-- /f-->
+								<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+								<div style="   margin-top: 8px;  margin-left: 3px;">
+									<!-- จัดส่งฟรี -->
+									<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+										<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+									</span>
+									<!-- /จัดส่งฟรี -->
+								</div>
+								<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+								<!-- div -->
+								<div >
+									<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+								</div>
+							
 							</div>
-							<!-- /f-->
-							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-							<div style="   margin-top: 8px;  margin-left: 3px;">
-								<!-- จัดส่งฟรี -->
-								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-								</span>
-								<!-- /จัดส่งฟรี -->
-							</div>
-							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-							<!-- div -->
-							<div >
-								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-							</div>
-						
-						</div>
+						</a>
 
-						<div class="box-flex">
-							<span class="first">2nd</span>			  	
-							<img class="img-size " src="img/banner13.jpg" alt="">
-							<!-- f-->
-							<div class="f">
-								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-							</div>
-							<!-- /f-->
-							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-							<div style="   margin-top: 8px;  margin-left: 3px;">
-								<!-- จัดส่งฟรี -->
-								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-								</span>
-								<!-- /จัดส่งฟรี -->
-							</div>
-							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-							<!-- div -->
-							<div >
-								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-							</div>
-						
-						</div>
 
 						<div class="box-flex">
 							<span class="first">3rd</span>			  	
@@ -1089,22 +1093,22 @@
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -1112,7 +1116,7 @@
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -1121,7 +1125,7 @@
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -1130,13 +1134,13 @@
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -1144,13 +1148,13 @@
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>
@@ -1177,6 +1181,8 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
+
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/slick.min.js"></script>
@@ -1185,6 +1191,8 @@
 	<script src="js/main.js"></script>
 	<script src="script.js"></script>
 	<script>
+
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
