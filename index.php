@@ -171,115 +171,117 @@
 			</div>
 			<!-- Row -->
 			<!-- Catagory -->
-			<div class="felx-row">
+			
 				<div class="box-catagory">
 				
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 						<img src="category/Man-1-icon.png" alt="" class="img-catgory">
-						<p>เสื้อผ้าแฟชั่นผู้ชาย</p>
+						<p class="hide-text-cat">เสื้อผ้าแฟชั่นผู้ชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 						<img src="category/Sneakers-2-icon.png" alt="" class="img-catgory">
-						<p>รองเท้าชาย</p>
+						<p class="hide-text-cat">รองเท้าชาย</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Mobile-Smartphone-icon.png" alt="" class="img-catgory">
-						<p>มือถือและอุปกรณ์เสริม</p>
+						<p class="hide-text-cat">มือถือและอุปกรณ์เสริม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/medicine-box-2-icon.png" alt="" class="img-catgory">
-						<p>อาหารเสรืม</p>
+						<p class="hide-text-cat">อาหารเสรืม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/clock-flat.png" alt="" class="img-catgory">
-						<p>นาฬิกา</p>
+						<p class="hide-text-cat">นาฬิกา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/iMac-icon.png" alt="" class="img-catgory">
-						<p>คอมพิวเตอร์และIT</p>
+						<p class="hide-text-cat">คอมพิวเตอร์และIT</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Camera-Front-icon.png" alt="" class="img-catgory">
-						<P>กล้องถ่ายรูป</P>
+						<P class="hide-text-cat">กล้องถ่ายรูป</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/792742_sport_512x512.png " alt="sport" class="img-catgory">
-						<p>กีฬา</p>
+						<p class="hide-text-cat" >กีฬา</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Video-Game-Controller-Icon.svg.png" alt="" class="img-catgory">
-						<p>เกมแล้วอุปกรณ์</p>
+						<p class="hide-text-cat">เกมแล้วอุปกรณ์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Old-Car-2-icon.png" alt="" class="img-catgory">
-						<p>ยานยนต์</p>
+						<p class="hide-text-cat">ยานยนต์</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Woman-9-icon.png" alt="" class="img-catgory">
-						<p>เสื้อผ้าผู้หญิง</p>
+						<p class="hide-text-cat">เสื้อผ้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/images.png" alt="" class="img-catgory">
-						<p>ร้องเท้าผู้หญิง</p>
+						<p class="hide-text-cat">ร้องเท้าผู้หญิง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Makeup-icon.png" alt="" class="img-catgory">
-						<p>ความงาน</p>
+						<p class="hide-text-cat">ความงาน</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Baby-Mobile-icon.png" alt="" class="img-catgory">
-						<p>แม่และเด็ก</p>
+						<p class="hide-text-cat">แม่และเด็ก</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/home-icon.png" alt="" class="img-catgory">
-						<P>บ้านและสวน</P>
+						<P class="hide-text-cat">บ้านและสวน</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Bag-Present-icon.png" alt="" class="img-catgory">
-						<P>กระเป๋า</P>
+						<P class="hide-text-cat">กระเป๋า</P>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Engagement-Ring-icon.png" alt="" class="img-catgory">
-						<p>เครื่องประดับ</p>
+						<p class="hide-text-cat">เครื่องประดับ</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/drink-4-icon.png" alt="" class="img-catgory">
-						<p>อาหารและเครื่องดื่ม</p>
+						<p class="hide-text-cat">อาหารและเครื่องดื่ม</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/img2.png" alt="" class="img-catgory">
-						<p>สัตว์เลี้ยง</p>
+						<p class="hide-text-cat">สัตว์เลี้ยง</p>
 					</div></a>
 
-					<a href=""><div class="flex col-lg-1 col-sm-1 col-md-1">
+					<a href=""><div class="flex ">
 					<img src="category/Spongebob-icon.png" alt="" class="img-catgory">
-						<p>อื่นๆ</p>
+						<p class="hide-text-cat">อื่นๆ</p>
 					</div></a>
 				
 				</div>	
-			</div>
+			
 		<!-- /Catagory -->
 		</div><!-- container -->
 		
 	</section><!-- section -->
+
+
 
 	<!-- section สินค้าแนะนำ-->
 	<div class="sction">
@@ -292,162 +294,167 @@
 				<!-- ROW -->
 				<div class="row  " style=" margin-bottom: 30px;" >
 
+					<div class="flex-into">
 
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="first">1st</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
+						
+						<a href="">		  	
+							<div class="box-flex">
+								<span class="first">1st</span>			  	
+								<img class="img-size " src="img/banner13.jpg" alt="">
+								<!-- f-->
+								<div class="f">
+									Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+								</div>
+								<!-- /f-->
+								<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+								<div style="   margin-top: 8px;  margin-left: 3px;">
+									<!-- จัดส่งฟรี -->
+									<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+										<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+									</span>
+									<!-- /จัดส่งฟรี -->
+								</div>
+								<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+								<!-- div -->
+								<div >
+									<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+								</div>
+							
+							</div>
+						</a>
 
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="first">2nd</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
+						<a href="">
+							<div class="box-flex">
+								<span class="first">2nd</span>			  	
+								<img class="img-size " src="img/banner13.jpg" alt="">
+								<!-- f-->
+								<div class="f">
+									Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+								</div>
+								<!-- /f-->
+								<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+								<div style="   margin-top: 8px;  margin-left: 3px;">
+									<!-- จัดส่งฟรี -->
+									<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+										<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+									</span>
+									<!-- /จัดส่งฟรี -->
+								</div>
+								<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+								<!-- div -->
+								<div >
+									<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+								</div>
+							
+							</div>
+						</a>
 
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="first">3rd</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
 
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-									  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+						<div class="box-flex">
+							<span class="first">3rd</span>			  	
+							<img class="img-size " src="img/banner13.jpg" alt="">
+							<!-- f-->
+							<div class="f">
+								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+							</div>
+							<!-- /f-->
+							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+							<div style="   margin-top: 8px;  margin-left: 3px;">
+								<!-- จัดส่งฟรี -->
+								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+								</span>
+								<!-- /จัดส่งฟรี -->
+							</div>
+							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+							<!-- div -->
+							<div >
+								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+							</div>
+						
 						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-									  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
 
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-									  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+						<div class="box-flex">
+							<span class="first">4th</span>			  	
+							<img class="img-size " src="img/banner13.jpg" alt="">
+							<!-- f-->
+							<div class="f">
+								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+							</div>
+							<!-- /f-->
+							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+							<div style="   margin-top: 8px;  margin-left: 3px;">
+								<!-- จัดส่งฟรี -->
+								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+								</span>
+								<!-- /จัดส่งฟรี -->
+							</div>
+							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+							<!-- div -->
+							<div >
+								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+							</div>
+						
 						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
 
+						<div class="box-flex">
+							<span class="first">5th</span>			  	
+							<img class="img-size " src="img/banner13.jpg" alt="">
+							<!-- f-->
+							<div class="f">
+								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+							</div>
+							<!-- /f-->
+							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+							<div style="   margin-top: 8px;  margin-left: 3px;">
+								<!-- จัดส่งฟรี -->
+								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+								</span>
+								<!-- /จัดส่งฟรี -->
+							</div>
+							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+							<!-- div -->
+							<div >
+								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+							</div>
+						
+						</div>
+
+						<div class="box-flex">
+							<span class="first">6th</span>			  	
+							<img class="img-size " src="img/banner13.jpg" alt="">
+							<!-- f-->
+							<div class="f">
+								Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+							</div>
+							<!-- /f-->
+							<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
+							<div style="   margin-top: 8px;  margin-left: 3px;">
+								<!-- จัดส่งฟรี -->
+								<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
+									<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+								</span>
+								<!-- /จัดส่งฟรี -->
+							</div>
+							<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
+							<!-- div -->
+							<div >
+								<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+							</div>
+						
+						</div>
+
+
+					</div>				  		
+					
+					
+					
+
+					
+
+					
 					
 
 					
@@ -463,261 +470,7 @@
 	</div>
 	<!-- /section สินค้าลดราคา -->
 	
-	<!-- section สินค้าแนะนำ -->
-	<div class="sction">
-		<div class="cor">
-			<!-- container -->
-			<div class="container"> 
-				<div class="row box-pro-text-heard">
-					<h2 style="padding-left:15px;">สินค้าแนะนำ</h2>
-				</div>				
-				<!-- ROW -->
-				<div class="row  " style=" margin-bottom: 30px;" >
-
-
-					<!-- col-md-2 card-pro-show-->
-					<a href="product-page.php">
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					</a>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">						
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					
-					
-					
-				</div>	
-				<!-- ROW -->
-				<!-- <div id="flex-container">
-					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
-					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
-					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
-					<img class="flex-item" src="img/download.jpg" alt="Card image cap">		
-				</div> -->
-			</div>		
-			<!-- container  -->
-		</div>	
-	</div>
-	<!-- /section สินค้าแนะนำ -->
+	
 
 
 	<!-- section สินค้าแนะนำ -->
@@ -1324,343 +1077,7 @@
 
 
 
-	<!-- section สินค้าลดราคา -->
-	<div class="sction">
-		<div class="cor">
-			<!-- container -->
-			<div class="container"> 
-				<div class="row box-pro-text-heard">
-					<h2 style="padding-left:15px;">สินค้าลดราคา</h2>
-				</div>				
-				<!-- ROW -->
-				<div class="row  " style=" margin-bottom: 30px;" >
-
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-					<!-- col-md-2 card-pro-show-->
-					<div class="col-md-2 card-pro-show">	
-						<span class="discount"><span class="text-dis-white">ส่วนลด<br> </span>30%</span>			  	
-						<img class="img-size " src="img/banner13.jpg" alt="">
-						<!-- f-->
-						<div class="f">
-							Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
-						</div>
-						<!-- /f-->
-						<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
-						<div style="   margin-top: 8px;  margin-left: 3px;">
-							<!-- จัดส่งฟรี -->
-							<span style="font-size: 11px; padding-top: 24px; color: #cc2424;" >
-								<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
-							</span>
-							<!-- /จัดส่งฟรี -->
-						</div>
-						<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
-						<!-- div -->
-						<div >
-							<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
-						</div>
-						<!-- /div -->
-					</div>
-					<!-- col-md-2 card-pro-show-->
-
-
-					
-
-					
-					
-					
-				</div>	
-				
-			</div>		
-			<!-- container  -->
-		</div>	
-	</div>
-	<!-- /section สินค้าลดราคา -->
+	
 
 
 
@@ -1676,22 +1093,22 @@
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -1699,7 +1116,7 @@
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -1708,7 +1125,7 @@
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -1717,13 +1134,13 @@
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -1731,13 +1148,13 @@
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>
@@ -1764,6 +1181,8 @@
 	<!-- /FOOTER -->
 
 	<!-- jQuery Plugins -->
+
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/slick.min.js"></script>
@@ -1772,6 +1191,8 @@
 	<script src="js/main.js"></script>
 	<script src="script.js"></script>
 	<script>
+
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
