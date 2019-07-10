@@ -728,6 +728,7 @@
 
 .img-shop{
     width: 100%;
+    margin-bottom: 5px;
 }
 
 @media only screen and (max-width:991.5px) {
@@ -760,6 +761,103 @@
         width: 296px;
     }
 }
+
+.shop-head{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.card-shop{
+    background-color: #ec411c8c;
+    border-radius: 15px;
+    border: dashed  #f8694a;
+}
+
+.card-detail{
+    margin: 10px;
+}
+
+.shop-detail{
+    background-color: #f6f7f8;
+    margin: 25px;
+    padding: 10px;
+}
+
+.shop-slide{
+    width: 85%;
+    margin: 15px;
+}
+
+.shop-detail-items{
+    padding: 0;
+    margin: 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.shop-detail-item{
+    width: 50%;
+	list-style: none;
+}
+
+.detail2{
+    line-height: 25px;
+    white-space: pre-line;
+    margin-top: -35px;
+}
+
+.img-shop1{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.shpimg{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:991.5px) {
+    .status{
+        padding-left: 213px;
+    }
+    .img-shop1{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:767.5px) {
+    .status{
+        padding-left: 0;
+    }
+    .img-shop1 {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width:500.5px) {
+    .img-shop1 {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:350.5px) {
+    .img-shop1 {
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width:700.5px) {
+    .shop-detail{
+        display: none;
+    }
+}
+
+
+
 <<<<<<< HEAD
 
 =======
