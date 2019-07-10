@@ -297,7 +297,7 @@
 					<div class="flex-into">
 
 						
-						<a href="">		  	
+						<a href="product-page.php">		  	
 							<div class="box-flex">
 								<span class="first">1st</span>			  	
 								<img class="img-size " src="img/banner13.jpg" alt="">
