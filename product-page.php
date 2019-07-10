@@ -223,7 +223,7 @@
 														<div class="shop-name">SHOP NAME</div>
 														<div class="btn-shop">
 															<button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
-															<button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-shopping-bag"></i> ดูร้านค้า</button>
+															<a href="shop-detail.php"><button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-shopping-bag"></i> ดูร้านค้า</button></a>
 														</div>
 													</div>
 												</div>

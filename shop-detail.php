@@ -119,7 +119,7 @@
                         <p class="shpimg"><img src="category/Man-1-icon.png" alt="" class="img-shop1"></p>
                     </div>
                     <div class="col-md-8">
-                        <div class="shp-dt">
+                        <div class="shp-dt" style="margin-top:10px">
                             <div class="shop-name"><strong>SHOP NAME</strong></div>
                             <div class="btn-shop">
                                 <button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
