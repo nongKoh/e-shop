@@ -188,13 +188,165 @@
 					</div>
 				</div>
 			</div>
+			<div class="content-cart">
+				<div class="container">
+					<div class="flex-cart-box">
+						<div class="flex-cart-content">
+							<div class="flex-cart-checkbox">
+								<a href="#"><input class="check-box" type="checkbox" aria-label="..."></a>
+							</div>
+							<div class="flex-cart-img">
+								<img src="https://cf.shopee.co.th/file/269d28e69f832dc2edc1df706abc1148" alt="" class="cart-img">
+							</div>
+							<div class="flex-cart-name">
+								<span class="cart-name-product "	>
+									BNK48 Belt Wristband : Kimi wa Melody
+								</span>
+							</div>
+							<div class="include">
+								<div class="btn-group">
+									<button class="btn btn-default btn-sm dropdown-toggle btn-type" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">								
+										ตัวเลือกสินค้า 
+									</button>
+									<ul class="dropdown-menu">
+										s
+									</ul>
+								</div>
+							</div>
+							<div class="price">
+								<span class="cart-price">
+									฿180
+								</span>
+							</div>
+							<div class="count-cart">
+								<div class=cart-count>
+									<button id="subcart" class="btn-cart">
+										<span class="subcart"></span>
+									</button> 
+									<input type="text" class="textcart" value="1"> 
+									<button id="subcart" class="btn-cart">
+										<span class="add1"></span>
+										<span class="add2"></span>
+									</button> 
+								</div>
+							</div>
+							<div class="total-price">
+								<div class="price-total">
+									฿180
+								</div>
+							</div>
+							<div class="action-cart">
+								<a href="#" class="delete-cart">
+									ลบ
+								</a>
+							</div>
+						</div>
+			
+
+					
+						
+					</div>
+				</div>
+			</div>
+			<div class="content-cart">
+				<div class="container">
+					<div class="flex-cart-box">
+						<div class="flex-cart-content">
+							<div class="flex-cart-checkbox">
+								<a href="#"><input class="check-box" type="checkbox" aria-label="..."></a>
+							</div>
+							<div class="flex-cart-img">
+								<img src="https://cf.shopee.co.th/file/269d28e69f832dc2edc1df706abc1148" alt="" class="cart-img">
+							</div>
+							<div class="flex-cart-name">
+								<span class="cart-name-product "	>
+									BNK48 Belt Wristband : Kimi wa Melody
+								</span>
+							</div>
+							<div class="include">
+								<div class="btn-group">
+									<button class="btn btn-default btn-sm dropdown-toggle btn-type" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">								
+										ตัวเลือกสินค้า 
+									</button>
+									<ul class="dropdown-menu">
+										s
+									</ul>
+								</div>
+							</div>
+							<div class="price">
+								<span class="cart-price">
+									฿180
+								</span>
+							</div>
+							<div class="count-cart">
+								<div class=cart-count>
+									<button id="subcart" class="btn-cart">
+										<span class="subcart"></span>
+									</button> 
+									<input type="text" class="textcart" value="1"> 
+									<button id="subcart" class="btn-cart">
+										<span class="add1"></span>
+										<span class="add2"></span>
+									</button> 
+								</div>
+							</div>
+							<div class="total-price">
+								<div class="price-total">
+									฿180
+								</div>
+							</div>
+							<div class="action-cart">
+								<a href="#" class="delete-cart">
+									ลบ
+								</a>
+							</div>
+						</div>
+			
+
+					
+						
+					</div>
+				</div>
+			</div>
 			<div class="content-cart-item">
 				<div class="container">
-					adads
+					<i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- /content-item -->
+    <!-- /cart-total -->
+
+	<br>
+	<br>
+	<br>
+	<footer>
+		<div class="footer-cart">
+			<div class="container">
+				<div class="top-cart">
+					<div class="top-cart-item">
+						<div class="flex-cart-checkbox">
+							<a href="#"><input class="check-box" type="checkbox" aria-label="..."></a>
+						</div>
+					</div>
+					<div class="top-footer-cart">
+						เลือกทั้งหมด <span>( 3 )</span>
+					</div>
+					<div class="flex-cart-total">
+						<div class="total-price-cart">
+							รวมราคาสินค้า <span>( 3 สินค้า ):</span><span>฿540</span>
+						</div>
+						<a class="btn-checkout-cart">
+							สั่งสินค้า
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</footer>
 	<!-- /content-item -->
     <!-- /cart-total -->
 
