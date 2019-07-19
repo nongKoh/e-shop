@@ -323,11 +323,30 @@
 	<br>
 	<br>
 	<br>
-	<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-    	<div class="container text-center">
-      		<small>Copyright &copy; Your Website</small>
-    	</div>
-  	</footer>
+	<footer>
+		<div class="footer-cart">
+			<div class="container">
+				<div class="top-cart">
+					<div class="top-cart-item">
+						<div class="flex-cart-checkbox">
+							<a href="#"><input class="check-box" type="checkbox" aria-label="..."></a>
+						</div>
+					</div>
+					<div class="top-footer-cart">
+						เลือกทั้งหมด <span>( 3 )</span>
+					</div>
+					<div class="flex-cart-total">
+						<div class="total-price-cart">
+							รวมราคาสินค้า <span>( 3 สินค้า ):</span><span>฿540</span>
+						</div>
+						<a class="btn-checkout-cart">
+							สั่งสินค้า
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<!-- /content-item -->
     <!-- /cart-total -->
 
