@@ -305,7 +305,7 @@
 						<?php
 						$sql_show ="select * from product";
 						$result_show = mysqli_query($con,$sql_show) or die(mysql_error());
-						while($rs10 = mysqli_fetch_array($result_show)) {}
+						while($rs10 = mysqli_fetch_array($result_show)) {
 						
 						?>
 						<a href="product-page.php">
@@ -313,7 +313,8 @@
 									<img class="img-size " src="img/banner13.jpg" alt="">
 									<!-- f-->
 									<div class="f">
-										Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+										<?php echo $rs['name_product'];?>
+										
 									</div>
 									<!-- /f-->
 									<!-- style="   margin-top: 8px;  margin-left: 3px;"-->
@@ -332,6 +333,9 @@
 									<!-- /div -->
 							</div>
 						</a>
+						<?php } ?>
+
+						
 
 						
 
