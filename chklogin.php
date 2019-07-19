@@ -38,6 +38,10 @@
 
 
 } else {
-	msgbox('ชื่อเข้าใช้งานหรือรหัสผ่านผิด','index.php');
+	
+	echo "<script>
+	alert('ชื่อผู้ใช้หรือรหัสผิด');
+	location.href = 'index.php';
+	</script>";
 }
 ?>
