@@ -3,11 +3,13 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html >
 
 <head>
+	<meta charset="UTF-8">
+	
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-	<meta charset="utf-8">
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
@@ -303,17 +305,18 @@
 
 
 						<?php
+						
 						$sql_show ="select * from product";
-						$result_show = mysqli_query($con,$sql_show) or die(mysql_error());
-						while($rs10 = mysqli_fetch_array($result_show)) {
+						$result_show= mysqli_query($con,$sql_show) or die(mysql_error());
+						while($row = mysqli_fetch_array($result_show)) {
 						
 						?>
-						<a href="product-page.php">
+						<a href="product-page.php?id=<?php echo $row['id_product'];  ?>">
 							<div class="box-flex">
-									<img class="img-size " src="img/banner13.jpg" alt="">
+									<img class="img-size " src=<?php echo $row['img_product']; ?> alt="">
 									<!-- f-->
 									<div class="f">
-										<?php echo $rs['name_product'];?>
+										<?php echo $row['name_product'];?>
 										
 									</div>
 									<!-- /f-->
@@ -328,7 +331,7 @@
 									<!--/ style="   margin-top: 8px;  margin-left: 3px;"-->
 									<!-- div -->
 									<div >
-										<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+										<span ><strong class="tex-pr">฿</strong></span><span class="tex-p"><?php echo $row['price_product']; ?> </span>
 									</div>
 									<!-- /div -->
 							</div>
@@ -368,7 +371,7 @@
 
 	
 		<!-- section สินค้าแนะนำ -->
-		<div class="sction">
+	<div class="sction">
 		<div class="cor">
 			<!-- container -->
 			<div class="container"> 
