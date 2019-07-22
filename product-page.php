@@ -119,10 +119,10 @@
 				<div class="product product-details clearfix">
 					<div class="col-md-6">
 						<div id="product-main-view">
-							<div class="product-view">
-								<img src="./img/main-product01.jpg" alt="">
-							</div>
-							<div class="product-view">
+							
+								<img src="./img/banner10.jpg" alt="">
+							
+							<!--<div class="product-view">
 								<img src="./img/main-product02.jpg" alt="">
 							</div>
 							<div class="product-view">
@@ -130,9 +130,9 @@
 							</div>
 							<div class="product-view">
 								<img src="./img/main-product04.jpg" alt="">
-							</div>
+							</div>-->
 						</div>
-						<div id="product-view">
+						<!--<div id="product-view">
 							<div class="product-view">
 								<img src="./img/thumb-product01.jpg" alt="">
 							</div>
@@ -145,25 +145,25 @@
 							<div class="product-view">
 								<img src="./img/thumb-product04.jpg" alt="">
 							</div>
-						</div>
-						<div style="margin-top:10px;">
+						</div>-->
+					<!--	<div style="margin-top:10px;">
 									<strong>favorite(89) </strong>
 									<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
 									<strong>แชร์ : </strong>
 									<button class="main-btn icon-btn"><i class="fa fa-facebook"></i></button>
 									<button class="main-btn icon-btn"><i class="fa fa-twitter"></i></button>
 									<button class="main-btn icon-btn"><i class="fa fa-google-plus"></i></button>
-								</div>
+								</div> -->
 					</div>
 					<div class="col-md-6">
 						<div class="product-body">
-							<div class="product-label">
+							<!--<div class="product-label">
 								<span>New</span>
 								<span class="sale">-20%</span>
-							</div>
+							</div>-->
 							<h2 class="product-name">ชื่อสินค้า</h2>
-							<h3 class="product-price">฿80 <del class="product-old-price">฿100</del></h3>
-							<div>
+							<h3 class="product-price">฿80 <!--<del class="product-old-price">฿100</del>--></h3>
+							<!--<div>
 								<div class="product-rating">
 									<i class="fa fa-star"></i>
 									<i class="fa fa-star"></i>
@@ -172,12 +172,12 @@
 									<i class="fa fa-star-o empty"></i>
 								</div>
 								<a href="#">3 Review(s) / Add Review</a>
-							</div>
+							</div>-->
 							<p><strong>จำนวนสินค้า:</strong> 7ชิ้น</p>
 							<p><strong>ขายแล้ว:</strong> 6 ชิ้น</p>
 							<p style="color:#f8694a"><strong>การจัดส่ง: </strong><i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400</p>
 							<p style="margin-left: 85px;">ค่าจัดส่ง : ฿0-฿40</P>
-							<div class="product-options">
+							<!--<div class="product-options">
 								<ul class="size-option">
 									<li><span class="text-uppercase">Size:</span></li>
 									<li class="active"><a href="#">S</a></li>
@@ -191,7 +191,7 @@
 									<li><a href="#" style="background-color:#BF6989;"></a></li>
 									<li><a href="#" style="background-color:#9A54D8;"></a></li>
 								</ul>
-							</div>
+							</div>-->
 
 							<div class="product-btns">
 								<div class="qty-input">
@@ -207,11 +207,11 @@
 						<div class="product-tab">
 							<ul class="tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">ข้อมูลสินค้า</a></li>
-								<li><a data-toggle="tab" href="#tab0">ข้อมูลร้านค้า</a></li>
-								<li><a data-toggle="tab" href="#tab2">Reviews (3)</a></li>
+								<!-- <li><a data-toggle="tab" href="#tab0">ข้อมูลร้านค้า</a></li>
+								<li><a data-toggle="tab" href="#tab2">Reviews (3)</a></li> -->
 							</ul>
-							<div class="tab-content">
-								<div id="tab0" class="tab-pane fade in detail">
+							<!-- <div class="tab-content">
+								  <div id="tab0" class="tab-pane fade in detail">
 									<div class="row">
 										<div class="col-md-4 col-sm-4">
 											<div class="row">
@@ -246,12 +246,12 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 								<div id="tab1" class="tab-pane fade in active">
 									<h4>รายละเอียดของสินค้า</h4>
 									<p>คำอธิบาย</p>
 								</div>
-								<div id="tab2" class="tab-pane fade in">
+							<!--	<div id="tab2" class="tab-pane fade in">
 
 									<div class="row">
 										<div class="col-md-6">
@@ -346,8 +346,8 @@
 												</div>
 												<button class="primary-btn">Submit</button>
 											</form>
-										</div>
-									</div>
+										</div> 
+									</div> -->
 
 
 
@@ -371,10 +371,9 @@
 			<!-- container -->
 			<div class="container"> 
 				<div class="row box-pro-text-heard">
-					<div class="more-detail">
-					<h4 style="padding-left:15px;">สินค้าขายดีประจำร้าน</h4>
-					<span><a href="#">ดูทั้งหมด <i class="fa fa-angle-right"></i></a><span>
-				</div>
+				
+					<h4 style="padding-left:15px;">สินค้าแนะนำ</h4>
+				
 				</div>				
 				<!-- ROW -->
 				<div class="row  " style=" margin-bottom: 30px;" >
@@ -534,8 +533,8 @@
 	</div>
 	<!-- section -->
 
-	<!-- FOOTER -->
-	<footer id="footer" class="section section-grey">
+		<!-- FOOTER -->
+		<footer id="footer" class="section section-grey">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -545,22 +544,22 @@
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -568,7 +567,7 @@
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -577,7 +576,7 @@
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -586,13 +585,13 @@
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -600,13 +599,13 @@
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>

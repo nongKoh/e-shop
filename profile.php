@@ -95,58 +95,111 @@ include_once('connect.php');
 
 
 <div class="container">
+	<?php
+	$query = "select * from member";
+	$result = mysqli_query($con,$query);
+	if (mysqli_num_rows($result)>0)
+	{
+		$rs = mysqli_fetch_array($result);
+	
+		$_SESSION['sess_id'] = session_id();
+		$_SESSION['mid'] = $rs['id_member'];
+		$_SESSION['mtype'] = $rs['type_member'];
+		$_SESSION['mname'] = $rs['name_member'];
+		$_SESSION['uname'] = $rs['Username_member'];
+		$_SESSION['email'] = $rs['email_member'];
+		$_SESSION['gender'] = $rs['gender_member'];
+		$_SESSION['address'] = $rs['address_member'];
+		$_SESSION['tel'] = $rs['phone_member'];
+		$_SESSION['line'] = $rs['line_member'];
+	}
+	?>
 			<h1>Profile</h1>
 			  <hr>
 			  <div class="row">
 					<!-- left column -->
-					<div class="col-md-3">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					  <div class="text-center">
 						<img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
 						
 					  </div>
 					</div>
-					<div class="col-md-9 personal-info">
+					<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9 personal-info">
 						<div>
-							<label class="col-lg-2 control-label"></label>
+							<label class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"></label>
 							<h3>My profile</h3>
 							
 						</div>
 						<form class="form-horizontal" role="form">
 								<div class="form-group">
-									<label class="col-lg-3 control-label">ชื่อ-นามสกุล:</label>
-									<div class="col-lg-8">
-										<p style="margin-top:7px;">ชื่อ-นามสกุล</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">ชื่อ-นามสกุล :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['mname'];
+										?>
+										</p>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">Username:</label>
-									<div class="col-lg-8">
-										<p style="margin-top:7px;">username</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">Username :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['uname'];
+										?>									
+										</p>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">E-mail:</label>
-									<div class="col-lg-8">
-										<p style="margin-top:7px;">E-mail</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">E-mail :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['email'];
+										?>
+										</p>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">เพศ:</label>
-									<div class="col-lg-8">
-										<p style="margin-top:7px;">เพศ</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">เพศ :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['gender'];
+										?>
+										</p>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">ที่อยู่:</label>
-									<div class="col-lg-8">
-                                    	<p style="margin-top:7px;">บ้านเลขที่ ซอย ตำบล อำเภอ จังหวัด รหัสไปรษณีย์</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">ที่อยู่ :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['address'];
+										?>
+										</p>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col-lg-3 control-label">เบอร์โทร:</label>
-									<div class="col-lg-8">
-										<p style="margin-top:7px;">0999999999</p>
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">เบอร์โทร :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+										<p style="margin-top:7px;">
+										<?php
+											echo $_SESSION['tel'];
+										?>
+										</p>
 									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">Line :</label>
+										<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+											<p style="margin-top:7px;">
+											<?php
+												echo $_SESSION['line'];
+											?>
+											</p>
+										</div>
 								</div>
 								
 								<div class="form-group">
@@ -168,8 +221,8 @@ include_once('connect.php');
 
 </div>
 
-	<!-- FOOTER -->
-	<footer id="footer" class="section section-grey">
+		<!-- FOOTER -->
+		<footer id="footer" class="section section-grey">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -179,22 +232,22 @@ include_once('connect.php');
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -202,7 +255,7 @@ include_once('connect.php');
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -211,7 +264,7 @@ include_once('connect.php');
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -220,13 +273,13 @@ include_once('connect.php');
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -234,13 +287,13 @@ include_once('connect.php');
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>

@@ -121,16 +121,16 @@
                     <div class="col-md-8">
                         <div class="shp-dt" style="margin-top:10px">
                             <div class="shop-name"><strong>SHOP NAME</strong></div>
-                            <div class="btn-shop">
+                           <!-- <div class="btn-shop">
                                 <button type="button" class="btn" style="color: green; border-color: green; background-color: white;"><i class="fa fa-commenting-o"></i> แชท</button>
                                 <button type="button" class="btn" style="color: #f8694a; border-color: #f8694a; background-color: white;"><i class="fa fa-plus"></i> ติดตาม</button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
-            <div Class="col-md-8">
+           <!-- <div Class="col-md-8">
                 <div class="row">
                     <div class="status">
                         <div class="col-md-4">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
@@ -572,8 +572,8 @@
 
 
 
-	<!-- FOOTER -->
-	<footer id="footer" class="section section-grey">
+		<!-- FOOTER -->
+		<footer id="footer" class="section section-grey">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -583,22 +583,22 @@
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -606,7 +606,7 @@
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -615,7 +615,7 @@
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -624,13 +624,13 @@
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -638,13 +638,13 @@
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>

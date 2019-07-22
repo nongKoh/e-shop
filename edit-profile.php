@@ -97,7 +97,7 @@ include_once('connect.php');
 			  <hr>
 			  <div class="row">
 					<!-- left column -->
-					<div class="col-md-3">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					  <div class="text-center">
 						<img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
 						<h6>Upload a different photo...</h6>
@@ -105,53 +105,51 @@ include_once('connect.php');
 						<input type="file" class="form-control">
 					  </div>
 					</div>
-					<div class="col-md-9 personal-info">
+					<div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9 personal-info">
 						<div>
-							<label class="col-lg-2 control-label"></label>
+							<label class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"></label>
 							<h3>Personal info</h3>
-							<label class="col-lg-2 control-label"></label>
-							<h5>Manage your personal information</h5>	
 						</div>
 						<form class="form-horizontal" role="form">
 								<div class="form-group">
-								<label class="col-lg-3 control-label">First name:</label>
-								<div class="col-lg-8">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">ชื่อ-นามสกุล :</label>
+								<div class="col-xl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8 col-md-8 col-sm-8 col-xs-8">
 									<input class="form-control" type="text" value="">
 								</div>
 								</div>
 								<div class="form-group">
-								<label class="col-lg-3 control-label">Last name:</label>
-								<div class="col-lg-8">
-									<input class="form-control" type="text" value="">
-								</div>
-								</div>
-								<div class="form-group">
-									<label class="col-lg-3 control-label">Address:</label>
-									<div class="col-lg-8">
+									<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">ที่อยู๋ :</label>
+									<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 										<input class="form-control" type="text" value="">
 									</div>
 									</div>
 								<div class="form-group">
-								<label class="col-lg-3 control-label">Tel:</label>
-								<div class="col-lg-8">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">เบอร์โทร :</label>
+								<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 									<input class="form-control" type="text" value="">
 								</div>
 								</div>
 								<div class="form-group">
-								<label class="col-md-3 control-label">Password:</label>
-								<div class="col-md-8">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">Line :</label>
+								<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
+									<input class="form-control" type="text" value="">
+								</div>
+								</div>
+								<div class="form-group">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">Password:</label>
+								<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 									<input class="form-control" type="password" value="">
 								</div>
 								</div>
 								<div class="form-group">
-								<label class="col-md-3 control-label">Confirm password:</label>
-								<div class="col-md-8">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label">Confirm password:</label>
+								<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 									<input class="form-control" type="password" value="">
 								</div>
 								</div>
 								<div class="form-group">
-								<label class="col-md-3 control-label"></label>
-								<div class="col-md-8">
+								<label class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 control-label"></label>
+								<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs-8">
 									<a href="profile.php"><input type="button" class="btn btn-danger" value="Save Changes"></a>
 									
 									
@@ -173,8 +171,8 @@ include_once('connect.php');
 
 </div>
 
-	<!-- FOOTER -->
-	<footer id="footer" class="section section-grey">
+		<!-- FOOTER -->
+		<footer id="footer" class="section section-grey">
 		<!-- container -->
 		<div class="container">
 			<!-- row -->
@@ -184,22 +182,22 @@ include_once('connect.php');
 					<div class="footer">
 						<!-- footer logo -->
 						<div class="footer-logo">
-							<a class="logo" href="#">
-		            <img src="./img/logo.png" alt="">
-		          </a>
+							<!-- <a class="logo" href="#">
+		            <img src="./img/logo.png" alt=""> -->
+		          <!-- </a> -->
 						</div>
 						<!-- /footer logo -->
 
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p> -->
 
 						<!-- footer social -->
-						<ul class="footer-social">
+						<!-- <ul class="footer-social">
 							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-						</ul>
+						</ul> -->
 						<!-- /footer social -->
 					</div>
 				</div>
@@ -207,7 +205,7 @@ include_once('connect.php');
 
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
-					<div class="footer">
+					<!-- <div class="footer">
 						<h3 class="footer-header">My Account</h3>
 						<ul class="list-links">
 							<li><a href="#">My Account</a></li>
@@ -216,7 +214,7 @@ include_once('connect.php');
 							<li><a href="#">Checkout</a></li>
 							<li><a href="#">Login</a></li>
 						</ul>
-					</div>
+					</div> -->
 				</div>
 				<!-- /footer widget -->
 
@@ -225,13 +223,13 @@ include_once('connect.php');
 				<!-- footer widget -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Customer Service</h3>
+						<!-- <h3 class="footer-header">Customer Service</h3>
 						<ul class="list-links">
 							<li><a href="#">About Us</a></li>
 							<li><a href="#">Shiping & Return</a></li>
 							<li><a href="#">Shiping Guide</a></li>
 							<li><a href="#">FAQ</a></li>
-						</ul>
+						</ul> -->
 					</div>
 				</div>
 				<!-- /footer widget -->
@@ -239,13 +237,13 @@ include_once('connect.php');
 				<!-- footer subscribe -->
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					<div class="footer">
-						<h3 class="footer-header">Stay Connected</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<!-- <h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p> -->
 						<form>
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<input class="input" placeholder="Enter Email Address">
 							</div>
-							<button class="primary-btn">Join Newslatter</button>
+							<button class="primary-btn">Join Newslatter</button> -->
 						</form>
 					</div>
 				</div>
