@@ -302,13 +302,21 @@
 
 
 					<div class="flex-into" id="result" >
+						
+						<?php
+						$id = $_GET['type'];
+						$sql_show ="select * from product WHERE type_product = '$id' ";
+						$result_show= mysqli_query($con,$sql_show) or die(mysql_error());
+						while($row = mysqli_fetch_array($result_show)) {
+						?>
 
-						<!-- <a href="product-page.php">
+
+						<a href="product-page.php?id=<?php echo $row['id_product'];  ?>">
 							<div class="box-flex">
-									<img class="img-size " src="img/banner13.jpg" alt="">
+									<img class="img-size " src=<?php echo $row['img_product']; ?> alt="">
 									
 									<div class="f">
-										Lotus ที่นอน รุ่น Evan หนา 8 นิ้ว ของแถม 10 รายการ ส่งฟรี
+										<?php echo $row['name_product'];?>
 									</div>
 									
 									<div style="   margin-top: 8px;  margin-left: 3px;">
@@ -320,12 +328,12 @@
 									</div>
 									
 									<div >
-										<span ><strong class="tex-pr">฿</strong></span><span class="tex-p">200</span>
+										<span ><strong class="tex-pr">฿</strong></span><span class="tex-p"><?php echo $row['price_product']; ?></span>
 									</div>
 									
 							</div>
-						</a> -->
-
+						</a>
+						<?php } ?>
 						<!-- code css เอาไว้ดู -->
 						
 						
@@ -470,20 +478,20 @@
 	<script src="script.js"></script>
     <script>                
         
-        $(document).ready(function(){
-            $('#result').html('');
-        let b = <?php echo json_encode($a); ?>;
-        fetch('db.json')    
-        .then((res) => res.json())
-        .then((myJson) => {
-            // console.log(myJson.products)
-            console.log(myJson)
-            myJson.products.filter(pro=>{
-            if(pro.type==b) {
-                $('#result').append('<a href="product-page.php"><div class="box-flex"><img class="img-size " src="'+pro.sku+'" alt=""><div class="f">"'+pro.title+'"</div><div style="   margin-top: 8px;  margin-left: 3px;"><span class="font-1-2-1" ><i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400</span></div><div><span ><strong class="tex-pr">฿</strong></span><span class="tex-p">"'+pro.price+'"</span></div></div></a>');
-            }})
+        // $(document).ready(function(){
+        //     $('#result').html('');
+        // let b = <?php echo json_encode($a); ?>;
+        // fetch('db.json')    
+        // .then((res) => res.json())
+        // .then((myJson) => {
+        //     // console.log(myJson.products)
+        //     console.log(myJson)
+        //     myJson.products.filter(pro=>{
+        //     if(pro.type==b) {
+        //         $('#result').append('<a href="product-page.php"><div class="box-flex"><img class="img-size " src="'+pro.sku+'" alt=""><div class="f">"'+pro.title+'"</div><div style="   margin-top: 8px;  margin-left: 3px;"><span class="font-1-2-1" ><i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400</span></div><div><span ><strong class="tex-pr">฿</strong></span><span class="tex-p">"'+pro.price+'"</span></div></div></a>');
+        //     }})
             
-        });
+        // });
         
         
         
@@ -499,7 +507,7 @@
       
       
         // });   
-        });
+        // });
        
                         
     </script>

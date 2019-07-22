@@ -321,7 +321,7 @@
 }
 
 
-    overflow: hidden;
+overflow: hidden;	
 }
 .cart-img{
     width: 80%;
@@ -391,7 +391,7 @@
 }
 
 
-    overflow: hidden;
+overflow: hidden;	
 }
 .cart-img{
     width: 80%;
@@ -467,28 +467,28 @@
         background-color: rgb(255, 4, 4);
     }
 }
-  
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
+<<<<<<< HEAD	
+<<<<<<< HEAD	
+=======	
+<<<<<<< HEAD	
 
 
-=======
-  
+=======	
 
-=======
->>>>>>> master
-=======
-<<<<<<< HEAD
-  
 
-=======
->>>>>>> b81516f56cd456e2cd182e0722e4a54a0aa4d874
->>>>>>> master
-<<<<<<< HEAD
-=======
->>>>>>> 55
+ =======	
+>>>>>>> master	
+=======	
+<<<<<<< HEAD	
+
+
+ =======	
+>>>>>>> b81516f56cd456e2cd182e0722e4a54a0aa4d874	
+>>>>>>> master	
+<<<<<<< HEAD	
+=======	
+>>>>>>> 55	
 >>>>>>> master
 #flex {
     width: 100%;
@@ -1109,12 +1109,12 @@
 
 
 
-<<<<<<< HEAD
+<<<<<<< HEAD	
 
-=======
-<<<<<<< HEAD
+ =======	
+<<<<<<< HEAD	
 
-/*  */
+ /*  */	
 =======
 
   .box-flex{
@@ -1166,21 +1166,61 @@
     .price-total{
         color: #ee4d2d;
     }
-}
-=======
+}	
+=======	
 <<<<<<< HEAD
 @media only screen and (max-width:325.5px) {
     .tab-nav{
         width: 296px;
     }
 }
->>>>>>> master
-=======
+>>>>>>> master	.footer-cart{
+    =======	    /* background-color: #f8f8f8 */
     
+    
+     >>>>>>> master	
+    <<<<<<< HEAD	
+    
+     =======	}
+    >>>>>>> 55	.top-cart{
+    >>>>>>> master
+.footer-cart{
+    /* background-color: #f8f8f8 */
 
->>>>>>> master
-<<<<<<< HEAD
-
-=======
->>>>>>> 55
->>>>>>> master
+}
+.top-cart{
+    display: flex;
+    background-color: #f8f8f8;
+    padding: 3rem
+}
+.top-footer-cart{
+    width:60%;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 4px;
+}
+.total-price-cart{
+    font-size: 1.5rem;
+    /* margin-left: 2rem; */
+    margin-top: 4px;
+}
+.flex-cart-total{
+    width: 40%;
+    display:flex
+}
+.btn-checkout-cart{
+    padding: 1rem;
+    text-align: center;
+    margin-left: 3rem;
+    border:none;
+    background-color: rgb(246, 66, 46);
+    color:white;
+    border-radius: 5%;
+    width: 40%;
+    height: 4rem;
+}
+.btn-checkout-cart:hover{
+    cursor: pointer;
+    color:white;
+    background-color: rgba(246, 66, 46, 0.904);
+}
