@@ -95,32 +95,13 @@ include_once('connect.php');
 
 
 <div class="container">
-	<?php
-	$query = "select * from member";
-	$result = mysqli_query($con,$query);
-	if (mysqli_num_rows($result)>0)
-	{
-		$rs = mysqli_fetch_array($result);
-	
-		$_SESSION['sess_id'] = session_id();
-		$_SESSION['mid'] = $rs['id_member'];
-		$_SESSION['mtype'] = $rs['type_member'];
-		$_SESSION['mname'] = $rs['name_member'];
-		$_SESSION['uname'] = $rs['Username_member'];
-		$_SESSION['email'] = $rs['email_member'];
-		$_SESSION['gender'] = $rs['gender_member'];
-		$_SESSION['address'] = $rs['address_member'];
-		$_SESSION['tel'] = $rs['phone_member'];
-		$_SESSION['line'] = $rs['line_member'];
-	}
-	?>
 			<h1>Profile</h1>
 			  <hr>
 			  <div class="row">
 					<!-- left column -->
 					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
 					  <div class="text-center">
-						<img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
+						<img src="img/lingard.jpg" class="avatar img-circle" alt="avatar" style="width:100%">
 						
 					  </div>
 					</div>

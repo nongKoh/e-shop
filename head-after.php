@@ -8,16 +8,12 @@
 								<?php
 									echo $_SESSION['mname'];
 								?>
-								</strong><i class="fa fa-caret-down"></i></strong>
+								</strong>
+								<i class="fa fa-caret-down"></i></strong><p>ยินดีต้อนรับ</p>
 							</div>
-							<a href="logout.php" class="">Logout</a>
 							<ul class="custom-menu">
-								<li><a href="profile.php"><i class="fa fa-user-o"></i> My Account</a></li>
-								<li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li>
-								<li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li>
-								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
-								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
-								<li><a href="#"><i class="fa fa-user-plus"></i> Create An Account</a></li>
+								<li><a href="profile.php"><i class="fa fa-user-o"></i> My Profile</a></li>
+								<li><a href="logout.php"><i class="fa fa-unlock-alt"></i> Logout</a></li>
 							</ul>
 						</li>
                         <!-- /Account -->

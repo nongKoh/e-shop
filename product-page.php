@@ -174,7 +174,7 @@
 								<a href="#">3 Review(s) / Add Review</a>
 							</div>-->
 							<p><strong>จำนวนสินค้า:</strong> 7ชิ้น</p>
-							<p><strong>ขายแล้ว:</strong> 6 ชิ้น</p>
+							<!-- <p><strong>ขายแล้ว:</strong> 6 ชิ้น</p> -->
 							<p style="color:#f8694a"><strong>การจัดส่ง: </strong><i class="fa fa-truck"></i> จัดส่งฟรี เมื่อสั่งซื้อขั้นต่ำ ฿400</p>
 							<p style="margin-left: 85px;">ค่าจัดส่ง : ฿0-฿40</P>
 							<!--<div class="product-options">

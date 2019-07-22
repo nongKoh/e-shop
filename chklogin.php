@@ -24,6 +24,12 @@
 	$_SESSION['mid'] = $rs['id_member'];
 	$_SESSION['mtype'] = $rs['type_member'];
 	$_SESSION['mname'] = $rs['name_member'];
+	$_SESSION['uname'] = $rs['Username_member'];
+	$_SESSION['email'] = $rs['email_member'];
+	$_SESSION['gender'] = $rs['gender_member'];
+	$_SESSION['address'] = $rs['address_member'];
+	$_SESSION['tel'] = $rs['phone_member'];
+	$_SESSION['line'] = $rs['line_member'];
 	
  		if ($_SESSION['mtype']==3) { 
  			header('location:index.php');
