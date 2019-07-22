@@ -319,6 +319,10 @@
     flex-direction: row;    
     flex-wrap: nowrap;
 }
+
+
+overflow: hidden;	
+}
 .cart-img{
     width: 80%;
 
@@ -386,6 +390,9 @@
     flex-wrap: nowrap;
 }
 
+
+overflow: hidden;	
+}
 .cart-img{
     width: 80%;
 
@@ -461,6 +468,28 @@
     }
 }
 
+<<<<<<< HEAD	
+<<<<<<< HEAD	
+=======	
+<<<<<<< HEAD	
+
+
+=======	
+
+
+ =======	
+>>>>>>> master	
+=======	
+<<<<<<< HEAD	
+
+
+ =======	
+>>>>>>> b81516f56cd456e2cd182e0722e4a54a0aa4d874	
+>>>>>>> master	
+<<<<<<< HEAD	
+=======	
+>>>>>>> 55	
+>>>>>>> master
 #flex {
     width: 100%;
     height: auto;
@@ -475,7 +504,7 @@
     flex-wrap: wrap;
     flex-direction: row; 
 }
-
+>>>>>>> 555
 .flex-item{
     width: 16%;
     height: 200px;
@@ -946,7 +975,7 @@
     }
 }
 
-
+<<<<<<< HEAD
 .img-shop{
     width: 100%;
     margin-bottom: 5px;
@@ -1080,7 +1109,13 @@
 
 
 
+<<<<<<< HEAD	
 
+ =======	
+<<<<<<< HEAD	
+
+ /*  */	
+=======
 
   .box-flex{
     padding: 0px;
@@ -1131,13 +1166,24 @@
     .price-total{
         color: #ee4d2d;
     }
-
-
+}	
+=======	
+<<<<<<< HEAD
 @media only screen and (max-width:325.5px) {
     .tab-nav{
         width: 296px;
     }
 }
+>>>>>>> master	.footer-cart{
+    =======	    /* background-color: #f8f8f8 */
+    
+    
+     >>>>>>> master	
+    <<<<<<< HEAD	
+    
+     =======	}
+    >>>>>>> 55	.top-cart{
+    >>>>>>> master
 .footer-cart{
     /* background-color: #f8f8f8 */
 
